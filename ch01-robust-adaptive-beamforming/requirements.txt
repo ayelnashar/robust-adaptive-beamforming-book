@@ -1,0 +1,10 @@
+# versions used to produce the figures in this repository
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+cvxpy==1.9.3
+clarabel==0.11.1
+pandas==3.0.5
+jupyter
+nbconvert
+pytest
