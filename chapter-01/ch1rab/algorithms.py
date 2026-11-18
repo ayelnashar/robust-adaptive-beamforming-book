@@ -95,7 +95,7 @@ def _vl_lambda(pp1, pp2, mu, eps):
 
 
 class VLRCB:
-    """Adaptive robust Capon beamformer with variable loading.
+    """Adaptive spherical RCB (variable loading); with tau set, the adaptive joint-constraint RCB.
     method='SD' (steepest descent) or 'CG' (conjugate gradient). Optional joint quadratic weight constraint tau."""
 
     def __init__(self, a0, eps, alpha, method='SD', tau=None):
@@ -172,7 +172,7 @@ def newton1(z, gm, eps, a, itmax=200):
 
 
 def rcb_eig(R, IR, a0, eps):
-    """Batch eigendecomposition RCB (Li-Stoica)."""
+    """Batch RCB: eigendecomposition-based robust Capon beamformer (Li-Stoica)."""
     gm, U = np.linalg.eigh(R)
     lam = newton1(U.conj().T @ a0, gm, eps, a0)
     M = len(a0)
@@ -196,7 +196,7 @@ def noojacom(r, w, PM, beta=0.001, gama=0.01):
 
 
 class RCBSubspace:
-    """Recursive eigendecomposition RCB with subspace tracking (Es/En by NOOjacom)."""
+    """Subspace-tracking RCB: recursive eigendecomposition RCB with NOOja subspace tracking."""
 
     def __init__(self, M, L, rng):
         q1, _ = np.linalg.qr(rng.random((M, M - L)) + 1j * rng.random((M, M - L)))
@@ -216,7 +216,7 @@ class RCBSubspace:
 
 
 class WCSOCP:
-    """Worst-case robust beamformer of Vorobyov-Gershman-Luo by SOCP (cvxpy, complex R):
+    """SOCP-based RCB / Robust MVDR-WC/SOCP: worst-case beamformer of Vorobyov-Gershman-Luo by SOCP (cvxpy):
        min ||U w||  s.t.  delta*||w|| <= Re(w^H a) - 1."""
 
     def __init__(self, M):
@@ -249,7 +249,7 @@ class WCSOCP:
 
 # --------------------------------------------------------------------------- IET 2008: worst case
 def wc_eig(R, a, zeta):
-    """WC beamformer w = (R + zeta/t I)^-1 a, t solving sum |z|^2/(zeta + t gamma)^2 = 1 (exact)."""
+    """Robust MVDR-WC/EigDec: w = (R + zeta/t I)^-1 a, t solving sum |z|^2/(zeta + t gamma)^2 = 1 (exact)."""
     gm, U = np.linalg.eigh(R)
     gm = np.maximum(gm, 1e-12)
     z2 = np.abs(U.conj().T @ a) ** 2
@@ -265,7 +265,7 @@ def wc_eig(R, a, zeta):
 
 
 class WCAdaptive:
-    """Adaptive MVDR beamformer with a single WC constraint (Table 1.4)."""
+    """Robust MVDR-WC/Adaptive: adaptive MVDR beamformer with a single WC constraint (Table 1.4)."""
 
     def __init__(self, a, zeta, alpha=0.1, modified=False, dzeta=0.1, per_snapshot=True):
         """modified=True enables the zeta-reduction rule of the modified Step 4.
@@ -337,7 +337,7 @@ class WCAdaptive:
 
 
 class MBWCAdaptive:
-    """Robust LCMV beamformer with multiple-beam WC constraints (Table 1.5).
+    """Robust LCMV-MBWC: robust LCMV beamformer with multiple-beam WC constraints (Table 1.5).
     Lam: M x N presumed steering matrix; ups: N margins; ivec: N right-hand sides."""
 
     def __init__(self, Lam, ups, ivec, a_init, alpha=0.3):

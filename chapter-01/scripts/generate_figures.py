@@ -3,11 +3,14 @@
     python scripts/generate_figures.py                 # full Monte Carlo counts (about 45 min on one core)
     python scripts/generate_figures.py --quick         # smoke test (about 2 min)
     python scripts/generate_figures.py --only 1_17 1_27
+    python scripts/generate_figures.py --replot        # redraw from the data saved by an earlier run
 """
 import argparse, os, sys, time, json
 
 p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
 p.add_argument('--quick', action='store_true', help='3/3/2 Monte Carlo runs instead of 50/100/50')
+p.add_argument('--replot', action='store_true',
+               help='redraw from the simulation data saved in <outdir>/data by an earlier run (no re-simulation)')
 p.add_argument('--outdir', default='figures', help='output folder (default: ./figures)')
 p.add_argument('--only', nargs='*', default=None,
                help='subset of figure functions, e.g. 1_5_9 1_17 (default: all)')
@@ -15,6 +18,7 @@ args = p.parse_args()
 
 os.environ['QUICK'] = '1' if args.quick else '0'
 os.environ['FIGDIR'] = args.outdir
+os.environ['RAB_CACHE'] = '1' if args.replot else '0'
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 from ch1rab import figures as F   # noqa: E402  (reads the environment at import)
 

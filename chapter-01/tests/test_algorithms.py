@@ -94,6 +94,6 @@ def test_scenarios_smoke():
 
 
 def test_runs_are_reproducible():
-    a = iet_run(7, N=20)['sinr']['Robust MVDR-WC/Proposed']
-    b = iet_run(7, N=20)['sinr']['Robust MVDR-WC/Proposed']
+    a = iet_run(7, N=20)['sinr']['Robust MVDR-WC/Adaptive']
+    b = iet_run(7, N=20)['sinr']['Robust MVDR-WC/Adaptive']
     assert np.array_equal(a, b)

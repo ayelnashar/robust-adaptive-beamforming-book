@@ -1,27 +1,27 @@
 {
  "Fig1.5": {
   "Standard Capon": 1.0988567842701746,
-  "Robust Capon (Batch)": 19.95451646893592,
-  "Robust Capon (SS)": 17.355642222881716,
-  "Robust (SOCP)": 19.954537909025877,
-  "Proposed1": 20.38675098868181,
-  "Proposed2": 20.021079849792898
+  "Batch RCB": 19.95451646893592,
+  "Subspace-tracking RCB": 17.355642222881716,
+  "SOCP-based RCB": 19.954537909025877,
+  "Adaptive spherical RCB": 20.38675098868181,
+  "Adaptive joint-constraint RCB": 20.021079849792898
  },
  "Fig1.6": {
   "Standard Capon": -3.0567340391324613,
-  "Robust Capon (Batch)": -17.80195807188687,
-  "Robust Capon (SS)": -5.255887143347611,
-  "Robust (SOCP)": -17.677715840614198,
-  "Proposed1": -20.04968956373034,
-  "Proposed2": -19.82658765428626
+  "Batch RCB": -17.80195807188687,
+  "Subspace-tracking RCB": -5.255887143347611,
+  "SOCP-based RCB": -17.677715840614198,
+  "Adaptive spherical RCB": -20.04968956373034,
+  "Adaptive joint-constraint RCB": -19.82658765428626
  },
  "Fig1.7": {
   "Standard Capon": -24.65398628852537,
-  "Robust Capon (Batch)": -2.650810569228415,
-  "Robust Capon (SS)": -2.120949272989362,
-  "Robust (SOCP)": -2.6490486216137707,
-  "Proposed1": -2.7041880756039545,
-  "Proposed2": -2.644345619215796
+  "Batch RCB": -2.650810569228415,
+  "Subspace-tracking RCB": -2.120949272989362,
+  "SOCP-based RCB": -2.6490486216137707,
+  "Adaptive spherical RCB": -2.7041880756039545,
+  "Adaptive joint-constraint RCB": -2.644345619215796
  },
  "diag_VL_activity_scenario1": {
   "alpha=0.008": {
@@ -39,11 +39,11 @@
  },
  "Fig1.10": {
   "Standard Capon": -13.611174596788045,
-  "Robust Capon (Batch)": 10.291775003567272,
-  "Robust Capon (SS)": 6.467850104662918,
-  "Robust (SOCP)": 10.292265195209414,
-  "Proposed1": 12.23075053646036,
-  "Proposed2": 12.20683880646357
+  "Batch RCB": 10.291775003567272,
+  "Subspace-tracking RCB": 6.467850104662918,
+  "SOCP-based RCB": 10.292265195209414,
+  "Adaptive spherical RCB": 12.23075053646036,
+  "Adaptive joint-constraint RCB": 12.20683880646357
  },
  "diag_VL_activity_scenario2": {
   "VL activations (one run)": 0
@@ -57,7 +57,7 @@
    "-18": -6.93,
    "-30": -12.85
   },
-  "Robust Capon (Batch)": {
+  "Batch RCB": {
    "30": -23.8,
    "18": -11.88,
    "6": -0.05,
@@ -65,7 +65,7 @@
    "-18": 16.8,
    "-30": 18.04
   },
-  "Robust Capon (SS)": {
+  "Subspace-tracking RCB": {
    "30": -23.8,
    "18": -11.87,
    "6": -0.06,
@@ -73,7 +73,7 @@
    "-18": 15.31,
    "-30": 16.12
   },
-  "Robust (SOCP)": {
+  "SOCP-based RCB": {
    "30": -23.8,
    "18": -11.88,
    "6": -0.05,
@@ -81,7 +81,7 @@
    "-18": 16.8,
    "-30": 18.04
   },
-  "Proposed1": {
+  "Adaptive spherical RCB": {
    "30": -23.82,
    "18": -11.9,
    "6": -0.2,
@@ -89,7 +89,7 @@
    "-18": 16.44,
    "-30": 17.58
   },
-  "Proposed2": {
+  "Adaptive joint-constraint RCB": {
    "30": -23.82,
    "18": -11.92,
    "6": -0.37,
@@ -107,7 +107,7 @@
    "-18": -12.0,
    "-30": -17.42
   },
-  "Robust Capon (Batch)": {
+  "Batch RCB": {
    "30": -26.25,
    "18": -14.26,
    "6": -2.42,
@@ -115,7 +115,7 @@
    "-18": 10.03,
    "-30": 10.59
   },
-  "Robust Capon (SS)": {
+  "Subspace-tracking RCB": {
    "30": -26.24,
    "18": -14.24,
    "6": -2.6,
@@ -123,7 +123,7 @@
    "-18": 6.57,
    "-30": 6.72
   },
-  "Robust (SOCP)": {
+  "SOCP-based RCB": {
    "30": -26.25,
    "18": -14.26,
    "6": -2.42,
@@ -131,7 +131,7 @@
    "-18": 10.03,
    "-30": 10.59
   },
-  "Proposed1": {
+  "Adaptive spherical RCB": {
    "30": -26.23,
    "18": -14.04,
    "6": -2.46,
@@ -139,7 +139,7 @@
    "-18": 11.51,
    "-30": 12.61
   },
-  "Proposed2": {
+  "Adaptive joint-constraint RCB": {
    "30": -26.23,
    "18": -14.09,
    "6": -4.06,
@@ -150,24 +150,24 @@
  },
  "Fig1.13": {
   "Standard Capon": 5.985550542904418,
-  "Robust Capon (Batch)": 13.484913205422224,
-  "Robust Capon (SS)": 12.529689552228243,
-  "Robust (SOCP)": 13.426710377310474,
-  "Proposed1": 15.477188078782138
+  "Batch RCB": 13.484913205422224,
+  "Subspace-tracking RCB": 12.529689552228243,
+  "SOCP-based RCB": 13.426710377310474,
+  "Adaptive spherical RCB": 15.477188078782138
  },
  "Fig1.14": {
   "Standard Capon": 5.405898972439044,
-  "Robust Capon (Batch)": 3.891407401797644,
-  "Robust Capon (SS)": 3.1349960219425093,
-  "Robust (SOCP)": 3.825053408224053,
-  "Proposed1": 8.110718329912443
+  "Batch RCB": 3.891407401797644,
+  "Subspace-tracking RCB": 3.1349960219425093,
+  "SOCP-based RCB": 3.825053408224053,
+  "Adaptive spherical RCB": 8.110718329912443
  },
  "Fig1.15": {
   "Standard Capon": 10.767086294892824,
-  "Robust Capon (Batch)": 11.311941894029191,
-  "Robust Capon (SS)": 10.358407397679954,
-  "Robust (SOCP)": 11.256663462895329,
-  "Proposed1": 11.58025840032037
+  "Batch RCB": 11.311941894029191,
+  "Subspace-tracking RCB": 10.358407397679954,
+  "SOCP-based RCB": 11.256663462895329,
+  "Adaptive spherical RCB": 11.58025840032037
  },
  "Fig1.16": {
   "Standard Capon": {
@@ -177,28 +177,28 @@
    "15": -11.79,
    "20": -14.01
   },
-  "Robust Capon (Batch)": {
+  "Batch RCB": {
    "0": 21.33,
    "5": 16.33,
    "10": 10.5,
    "15": 4.02,
    "20": -7.47
   },
-  "Robust Capon (SS)": {
+  "Subspace-tracking RCB": {
    "0": 20.95,
    "5": 15.38,
    "10": 7.67,
    "15": -0.24,
    "20": -9.22
   },
-  "Robust (SOCP)": {
+  "SOCP-based RCB": {
    "0": 21.33,
    "5": 16.33,
    "10": 10.5,
    "15": 4.03,
    "20": -7.47
   },
-  "Proposed1": {
+  "Adaptive spherical RCB": {
    "0": 20.94,
    "5": 16.84,
    "10": 11.71,
@@ -210,14 +210,14 @@
   "Standard MVDR": 2.3288429762284157,
   "Robust MVDR-WC/SOCP": 10.907572544288573,
   "Robust MVDR-WC/EigDec": 10.907803487057992,
-  "Robust MVDR-WC/Proposed": 10.907795696846826,
+  "Robust MVDR-WC/Adaptive": 10.907795696846826,
   "Benchmark MVDR": 11.639763048124276
  },
  "Fig1.17_k10": {
   "Standard MVDR": 3.01,
   "Robust MVDR-WC/SOCP": 3.26,
   "Robust MVDR-WC/EigDec": 6.53,
-  "Robust MVDR-WC/Proposed": 7.72,
+  "Robust MVDR-WC/Adaptive": 7.72,
   "Benchmark MVDR": 4.35
  },
  "Fig1.19": {
@@ -245,7 +245,7 @@
    "-20": 23.8,
    "-30": 24.75
   },
-  "Robust MVDR-WC/Proposed": {
+  "Robust MVDR-WC/Adaptive": {
    "20": -8.71,
    "10": 1.12,
    "0": 10.64,
@@ -300,14 +300,14 @@
   "snapshots until zeta settles": 10
  },
  "Fig1.25": {
-  "Robust MVDR-WC/Proposed (modified)": 11.006259525118649
+  "Robust MVDR-WC/Adaptive (modified)": 11.006259525118649
  },
  "Fig1.26": {
   "Standard MVDR": -1.0348923945725033,
   "Benchmark MVDR": 13.293585750819307,
   "Robust MVDR-WC/SOCP": 15.369858524074107,
   "Robust MVDR-WC/EigDec": 15.369969822652722,
-  "Robust MVDR-WC/Proposed": 15.369967647148302,
+  "Robust MVDR-WC/Adaptive": 15.369967647148302,
   "Benchmark LCMV": 16.140535862711737
  },
  "Fig1.27": {
@@ -315,7 +315,7 @@
   "Standard LCMV": 7.117817896342517,
   "Robust MVDR-WC/SOCP": 10.084637835668104,
   "Robust MVDR-WC/EigDec": 10.084957791279113,
-  "Robust MVDR-WC/Proposed": 10.084894938133237,
+  "Robust MVDR-WC/Adaptive": 10.084894938133237,
   "Robust LCMV-MBWC": 10.529138666689615,
   "Benchmark LCMV": 11.71786802308781
  }

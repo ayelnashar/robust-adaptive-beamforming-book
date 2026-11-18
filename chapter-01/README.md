@@ -1,6 +1,6 @@
-# Chapter 1: Robust Adaptive Beamforming
+# Chapter 1: Robust Adaptive Beamforming: Foundations
 
-Python code for Chapter 1 of *Robust Adaptive Beamforming Across Domains: Wireless, Radar, Sonar, and Biomedical Arrays, with Neural and Learning-Based Methods* by Ayman Elnashar (Wiley–IEEE Press, forthcoming). It reproduces every simulation figure of the chapter (Figs. 1.5–1.27).
+Python code for Chapter 1 of *Robust Adaptive Beamforming and Its Applications* by Ayman Elnashar (Wiley, forthcoming). It reproduces every simulation figure of the chapter (Figs. 1.5–1.27).
 
 The chapter builds on two papers:
 
@@ -35,8 +35,8 @@ The package can also be installed with `pip install -e .` and imported as `ch1ra
 
 ```text
 ch1rab/
-  algorithms.py   variable-loading RCB (steepest descent / conjugate gradient), joint constraint,
-                  batch and subspace-tracking RCB, WC SOCP (CVXPY + Clarabel), WC eigendecomposition,
+  algorithms.py   adaptive spherical RCB with variable loading (steepest descent / conjugate gradient),
+                  adaptive joint-constraint RCB, batch and subspace-tracking RCB, WC SOCP (CVXPY + Clarabel), WC eigendecomposition,
                   adaptive WC MVDR with zeta-reduction, MBWC LCMV, RLS inverse-covariance update,
                   SINR and beampattern metrics
   scenarios.py    Monte Carlo scenario runners: tap_run / tap_mc (TAP 2006), iet_run / iet_mc (IET 2008)
@@ -70,23 +70,25 @@ tests/            sanity tests (equivalences, constraints, reproducibility)
 * M = 5 half-wavelength uniform linear array; sample covariance accumulated without forgetting (η = 1), R(0) = I.
 * TAP scenarios: SOI at 0° (0 dB), jammers at 45° and 30° (INR 10 dB). Scenario 1: 0.03π mismatch, ε = 0.5, noise −50 dB, steepest descent with α = 0.008. Scenario 2: 0.06π mismatch, ε = 1, noise −20 dB, conjugate gradient with α = 0.01. Joint constraint τ = 0.2. 50 runs; 50 runs per point in the sweeps.
 * IET scenarios: SOI at 0° (SNR 5 dB), presumed 5°, interferers at 30° and 60° (INR 10 dB), noise 0 dB, ζ = 1.8, α = 0.1. 100 runs; 300 runs per point in Fig. 1.19.
-* All robust beamformers of a scenario share the same uncertainty set: the SOCP beamformer uses the norm bound √ε in the TAP scenarios and ζ in the IET scenarios. SOCP problems are solved with CVXPY and Clarabel and re-solved every 10 snapshots.
+* All robust beamformers of a scenario share the same uncertainty set: the SOCP-based RCB and Robust MVDR-WC/SOCP use the norm bound √ε in the TAP scenarios and ζ in the IET scenarios. SOCP problems are solved with CVXPY and Clarabel and re-solved every 10 snapshots.
 * Every run has a fixed seed, so the figures can be regenerated exactly.
+* Each method keeps the same colour, marker and dash pattern in every figure. Where curves coincide, the adaptive method is drawn as a wider line underneath.
+* `python scripts/generate_figures.py --replot` redraws the figures from the simulation data saved in `figures/data` by an earlier run, without re-simulating.
 * SINR-vs-snapshot curves are displayed after a centred moving average whose half-width grows as k/4 up to 50 snapshots; all numbers below and in `figures/results_summary.json` come from the unsmoothed Monte Carlo means.
 
 ## Key results (steady-state SINR in dB, mean of the last 100 snapshots)
 
 | Figure | Scenario | Result |
 |---|---|---|
-| 1.5 | Scenario 1 (steepest descent) | Proposed (ellipsoidal) 20.4, proposed (joint) 20.0, batch RCB 20.0, SOCP 20.0, subspace RCB 17.4, Capon 1.1 |
-| 1.10 | Scenario 2 (conjugate gradient) | Proposed 12.2, joint 12.2, batch RCB / SOCP 10.3, subspace RCB 6.5, Capon -13.6 |
-| 1.13 | Moving jammers, non-coherent | Proposed 15.5, batch RCB 13.5, SOCP 13.4, subspace RCB 12.5, Capon 6.0 |
-| 1.14 | Moving jammers, coherent | Proposed 8.1, batch RCB 3.9, SOCP 3.8, subspace RCB 3.1, Capon 5.4 |
-| 1.15 | Moving jammers, non-stationary | Proposed 11.6, batch RCB 11.3, SOCP 11.3, subspace RCB 10.4, Capon 10.8 |
-| 1.17 | Adaptive WC MVDR, DOA mismatch | WC/Proposed 10.9, WC/EigDec 10.9, WC/SOCP 10.9, benchmark MVDR 11.6, standard MVDR 2.3; at snapshot 10: WC/Proposed 7.7, WC/EigDec 6.5, WC/SOCP 3.3 |
-| 1.25 | Modified algorithm (ζ-reduction from ζ = 3) | 11.0 |
-| 1.26 | Small angular spread | WC beamformers 15.4, benchmark LCMV 16.1, benchmark MVDR 13.3, standard MVDR -1.0 |
-| 1.27 | Large angular spread | MBWC LCMV 10.5, WC beamformers 10.1, benchmark LCMV 11.7, standard LCMV 7.1, benchmark MVDR -0.6 |
+| 1.5 | Scenario 1 (steepest descent) | Adaptive spherical RCB 20.4, Adaptive joint-constraint RCB 20.0, Batch RCB 20.0, SOCP-based RCB 20.0, Subspace-tracking RCB 17.4, Standard Capon 1.1 |
+| 1.10 | Scenario 2 (conjugate gradient) | Adaptive spherical RCB 12.2, Adaptive joint-constraint RCB 12.2, Batch RCB 10.3, SOCP-based RCB 10.3, Subspace-tracking RCB 6.5, Standard Capon -13.6 |
+| 1.13 | Moving jammers, non-coherent | Adaptive spherical RCB 15.5, Batch RCB 13.5, SOCP-based RCB 13.4, Subspace-tracking RCB 12.5, Standard Capon 6.0 |
+| 1.14 | Moving jammers, coherent | Adaptive spherical RCB 8.1, Batch RCB 3.9, SOCP-based RCB 3.8, Subspace-tracking RCB 3.1, Standard Capon 5.4 |
+| 1.15 | Moving jammers, non-stationary | Adaptive spherical RCB 11.6, Batch RCB 11.3, SOCP-based RCB 11.3, Subspace-tracking RCB 10.4, Standard Capon 10.8 |
+| 1.17 | WC beamformers, DOA mismatch | Robust MVDR-WC/Adaptive 10.9, Robust MVDR-WC/EigDec 10.9, Robust MVDR-WC/SOCP 10.9, Benchmark MVDR 11.6, Standard MVDR 2.3; at snapshot 10: Robust MVDR-WC/Adaptive 7.7, Robust MVDR-WC/EigDec 6.5, Robust MVDR-WC/SOCP 3.3 |
+| 1.25 | Modified WC algorithm (ζ-reduction from ζ = 3) | 11.0 |
+| 1.26 | Small angular spread | Robust MVDR-WC/Adaptive 15.4, Robust MVDR-WC/EigDec 15.4, Robust MVDR-WC/SOCP 15.4, Benchmark LCMV 16.1, Benchmark MVDR 13.3, Standard MVDR -1.0 |
+| 1.27 | Large angular spread | Robust LCMV-MBWC 10.5, Robust MVDR-WC/Adaptive 10.1, Robust MVDR-WC/EigDec 10.1, Robust MVDR-WC/SOCP 10.1, Benchmark LCMV 11.7, Standard LCMV 7.1, Benchmark MVDR -0.6 |
 
 ## Requirements
 

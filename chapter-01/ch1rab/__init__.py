@@ -5,4 +5,4 @@ from .algorithms import (steer, sinr_single, sinr_coherent, beampattern, capon, 
                          lcmv)
 from .scenarios import TAP_METHODS, WC_METHODS, tap_run, tap_mc, iet_run, iet_mc
 
-__version__ = "1.0.0"
+__version__ = "1.1.0"

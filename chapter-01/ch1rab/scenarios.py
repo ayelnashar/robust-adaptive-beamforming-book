@@ -6,8 +6,8 @@ import numpy as np
 from .algorithms import (steer, sinr_single, sinr_coherent, capon, soi_power, RLS, VLRCB, rcb_eig,
                  RCBSubspace, WCSOCP, wc_eig, WCAdaptive, MBWCAdaptive, lcmv)
 
-TAP_METHODS = ['Standard Capon', 'Robust Capon (Batch)', 'Robust Capon (SS)', 'Robust (SOCP)',
-               'Proposed1', 'Proposed2']
+TAP_METHODS = ['Standard Capon', 'Batch RCB', 'Subspace-tracking RCB', 'SOCP-based RCB',
+               'Adaptive spherical RCB', 'Adaptive joint-constraint RCB']
 
 
 # =========================================================================== TAP 2006
@@ -85,7 +85,7 @@ def tap_mc(runs, base_seed=0, **kw):
 
 # =========================================================================== IET 2008
 WC_METHODS = ['Standard MVDR', 'Robust MVDR-WC/SOCP', 'Robust MVDR-WC/EigDec',
-              'Robust MVDR-WC/Proposed', 'Benchmark MVDR']
+              'Robust MVDR-WC/Adaptive', 'Benchmark MVDR']
 
 
 def iet_run(seed, *, M=5, N=1000, noise_db=0.0, mis_deg=5.0, zeta=1.8, zeta_socp=None,
@@ -151,8 +151,8 @@ def iet_run(seed, *, M=5, N=1000, noise_db=0.0, mis_deg=5.0, zeta=1.8, zeta_socp
             if (i % socp_every == 0) or last:
                 wo = socp.solve(R, a0, zeta_socp)
             W['Robust MVDR-WC/SOCP'] = wo
-        if 'Robust MVDR-WC/Proposed' in names:
-            W['Robust MVDR-WC/Proposed'] = wd
+        if 'Robust MVDR-WC/Adaptive' in names:
+            W['Robust MVDR-WC/Adaptive'] = wd
         if 'Robust LCMV-MBWC' in names:
             W['Robust LCMV-MBWC'] = wm
         if 'Benchmark LCMV' in names:

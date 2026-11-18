@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ch1rab"
-version = "1.0.0"
+version = "1.1.0"
 description = "Chapter 1 simulations: adaptive robust beamforming with ellipsoidal, joint, worst-case and multiple-beam worst-case constraints"
 readme = "README.md"
 license = {file = "LICENSE"}
