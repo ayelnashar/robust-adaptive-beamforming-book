@@ -2,7 +2,7 @@
 
 **Companion software for the book**
 *Robust Adaptive Beamforming and Its Applications*
-Ayman Elnashar, Wiley–IEEE Press (forthcoming)
+Ayman Elnashar, Wiley (forthcoming)
 
 This repository contains the Python code that reproduces the simulation results of the book. Each chapter has its own folder with the algorithms, a notebook that regenerates every figure of the chapter, the generated figures, and tests.
 
