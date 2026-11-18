@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the book chapter and the article listed below."
+title: "Chapter 2: A General Constrained-Optimization Method for Robust Beamforming (Python simulations)"
+version: 1.0.0
+date-released: 2026-11-18
+license: MIT
+authors:
+  - family-names: Elnashar
+    given-names: Ayman
+preferred-citation:
+  type: book
+  title: "Robust Adaptive Beamforming and Its Applications"
+  authors:
+    - family-names: Elnashar
+      given-names: Ayman
+  publisher:
+    name: "Wiley"
+  notes: "Forthcoming. Chapter 2, A General Constrained-Optimization Method for Robust Beamforming."
+references:
+  - type: article
+    title: "A Spectral Active-Set Method for Second-Order Cone Programs with Shared Norm Coupling"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    status: submitted
+  - type: data
+    title: "Data Library"
+    authors:
+      - family-names: French
+        given-names: Kenneth R.
+    institution:
+      name: "Tuck School of Business, Dartmouth College"
+    url: "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html"
+  - type: software
+    title: "linearmodels: Linear models for panel, instrumental variable, asset pricing, and system regression"
+    authors:
+      - family-names: Sheppard
+        given-names: Kevin
+    url: "https://github.com/bashtage/linearmodels"

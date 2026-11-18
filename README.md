@@ -19,7 +19,7 @@ The book develops robust adaptive array processing from first principles and car
 | Ch. | Title | Code |
 |---|---|---|
 | 1 | Robust Adaptive Beamforming: Foundations | [chapter-01](chapter-01) |
-| 2 | A General Constrained-Optimization Method for Robust Beamforming | coming soon |
+| 2 | A General Constrained-Optimization Method for Robust Beamforming | [chapter-02](chapter-02) |
 | 3 | Efficient Solving Under Multiple Constraints | coming soon |
 
 ### Part II: Wireless Communications

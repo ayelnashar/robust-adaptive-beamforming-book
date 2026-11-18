@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ch2assnc"
+version = "1.0.0"
+description = "Chapter 2 simulations: AS-SNC, a spectral active-set method for second-order cone programs with shared norm coupling, and its benchmarks"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Ayman Elnashar"}]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+    "threadpoolctl>=3.0",
+    "cvxpy>=1.4",
+    "clarabel>=0.6",
+    "scs>=3.2",
+    "ecos>=2.0",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter", "nbformat", "nbconvert"]
+test = ["pytest"]
+commercial = ["mosek", "gurobipy"]
+
+[tool.setuptools]
+packages = ["ch2assnc"]
+
+[tool.setuptools.package-data]
+ch2assnc = ["data/*.csv.bz2"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
