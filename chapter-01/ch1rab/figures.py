@@ -59,7 +59,7 @@ STYLE = {
 plt.rcParams.update({
     'font.family': 'DejaVu Sans', 'font.size': 9.5,
     'axes.edgecolor': INK2, 'axes.labelcolor': INK, 'axes.linewidth': 0.8,
-    'axes.spines.top': False, 'axes.spines.right': False,
+    'axes.spines.top': True, 'axes.spines.right': True,
     'axes.grid': True, 'grid.color': GRID, 'grid.linewidth': 0.6,
     'xtick.color': INK2, 'ytick.color': INK2, 'xtick.direction': 'out', 'ytick.direction': 'out',
     'legend.frameon': False, 'legend.fontsize': 8.5, 'legend.handlelength': 3.2,
@@ -85,7 +85,41 @@ def cached(key, func, *args, **kw):
     return res
 
 
+# legend placement where the automatic choice would cover a curve: (location, y-limits, columns)
+LEGEND_PLACE = {
+    'Fig1_06_MSE_scenario1':             ('upper right', (-23, 12), 1),
+    'Fig1_07_SOIP_scenario1':            ('upper right', (-27, 30), 1),
+    'Fig1_08_beampattern_a':             ('upper left', (-60, 35), 1),
+    'Fig1_09_beampattern_b':             ('upper left', (-60, 35), 1),
+    'Fig1_10_SINR_scenario2':            ('center right', None, 1),
+    'Fig1_13_moving_noncoherent':        ('lower center', (-6, 20), 2),
+    'Fig1_14_moving_coherent':           ('lower center', (-6, 16), 2),
+    'Fig1_15_moving_nonstationary':      ('lower center', (-5, 17), 2),
+    'Fig1_18_WC_beampattern':            ('upper left', (-60, 35), 1),
+    'Fig1_27_WC_large_angular_spread_MBWC': ('lower right', (-12, 13), 2),
+}
+
+
+def place_legend(fig, name):
+    if name not in LEGEND_PLACE:
+        return
+    loc, ylim, ncol = LEGEND_PLACE[name]
+    for ax in fig.axes:
+        leg = ax.get_legend()
+        if leg is None:
+            continue
+        handles, labels = leg.legend_handles, [t.get_text() for t in leg.get_texts()]
+        if ylim is not None:
+            ax.set_ylim(*ylim)
+            if 'beampattern' in name:                # normalized pattern: no ticks above 0 dB
+                ax.set_yticks(np.arange(ylim[0], 1, 10))
+        ax.legend(handles, labels, loc=loc, ncol=ncol, frameon=True, fancybox=False, framealpha=0.92,
+                  edgecolor=INK2, fontsize=8, handlelength=3.0, borderpad=0.5, labelspacing=0.35,
+                  columnspacing=1.2)
+
+
 def save(fig, name):
+    place_legend(fig, name)
     os.makedirs(OUT, exist_ok=True)
     png = os.path.join(OUT, name + '.png')
     fig.savefig(png, dpi=300)
@@ -99,9 +133,10 @@ def save(fig, name):
     plt.close(fig)
 
 
-def legend_below(ax, n):
-    ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.17), ncol=3 if n > 4 else n,
-              columnspacing=1.6, handletextpad=0.6)
+def add_legend(ax, n):
+    """legend inside the axes box, in a framed box placed where it covers the fewest curves"""
+    ax.legend(loc='best', ncol=1, frameon=True, fancybox=False, framealpha=0.92,
+              edgecolor=INK2, fontsize=8, handlelength=3.0, borderpad=0.5, labelspacing=0.35)
 
 
 def curve_plot(curves, ylabel, xlabel='Snapshot index', x=None, every=100, ref=None, ylim=None,
@@ -123,7 +158,7 @@ def curve_plot(curves, ylabel, xlabel='Snapshot index', x=None, every=100, ref=N
     if ylim:
         ax.set_ylim(*ylim)
     if legend:
-        legend_below(ax, len(curves) + (ref is not None))
+        add_legend(ax, len(curves) + (ref is not None))
     return fig, ax
 
 
@@ -146,7 +181,7 @@ def pattern_plot(W, name, marks):
     ax.set_xlim(-90, 90)
     ax.set_xticks(np.arange(-90, 91, 30))
     ax.set_ylim(-60, 2)
-    legend_below(ax, len(W))
+    add_legend(ax, len(W))
     save(fig, name)
 
 
@@ -403,7 +438,7 @@ def fig_1_21():
                     label=fr'$\zeta$ = {z} (infeasible)')
     ax.set_xlabel('Snapshot index'); ax.set_ylabel('Output SINR (dB)')
     ax.set_xlim(0, len(raw[zs[0]]))
-    legend_below(ax, len(zs) + 1)
+    add_legend(ax, len(zs) + 1)
     save(fig, 'Fig1_21_WC_effect_of_zeta')
     RESULTS['Fig1.21'] = {f'ζ = {z}': ss(raw[z]) for z in zs}
 
