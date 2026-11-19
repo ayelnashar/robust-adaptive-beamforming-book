@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ch4rmber"
+version = "1.0.0"
+description = "Chapter 4 simulations: guided R-MBER, a spectrally guided blind minimum-bit-error-rate beamformer, and its comparators"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Ayman Elnashar"}]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter", "nbformat", "nbconvert"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["ch4rmber", "ch4rmber.experiments"]
+
+[tool.setuptools.package-data]
+ch4rmber = ["data/*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the book chapter and the papers listed below."
+title: "Chapter 4: Robust Beamforming that Minimizes Bit-Error-Rate Directly (Python simulations)"
+version: 1.0.0
+date-released: 2026-11-19
+license: MIT
+authors:
+  - family-names: Elnashar
+    given-names: Ayman
+preferred-citation:
+  type: book
+  title: "Robust Adaptive Beamforming and Its Applications"
+  authors:
+    - family-names: Elnashar
+      given-names: Ayman
+  publisher:
+    name: "Wiley"
+  notes: "Forthcoming. Chapter 4, Robust Beamforming that Minimizes Bit-Error-Rate Directly."
+references:
+  - type: article
+    title: "Spectrally Guided Blind Minimum-Bit-Error-Rate Beamforming Robust to Steering-Vector and Training-Reference Mismatch"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+  - type: article
+    title: "Block-Shanno minimum bit error rate beamforming"
+    authors:
+      - family-names: Samir
+        given-names: T. A.
+      - family-names: Elnoubi
+        given-names: S.
+      - family-names: Elnashar
+        given-names: Ayman
+    journal: "IEEE Transactions on Vehicular Technology"
+    volume: 57
+    issue: 5
+    start: 2981
+    end: 2990
+    year: 2008
+    doi: 10.1109/TVT.2008.917237
+  - type: book
+    title: "Simplified Robust Adaptive Detection and Beamforming for Wireless Communications"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    publisher:
+      name: "Wiley"
+    year: 2018
+    doi: 10.1002/9781118938218
