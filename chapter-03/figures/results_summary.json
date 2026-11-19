@@ -1,0 +1,1316 @@
+{
+ "settings": {
+  "monte_carlo": {
+   "snap": 25,
+   "sweep": 25,
+   "sens": 15,
+   "errors": 20,
+   "size": 15,
+   "stab": 25,
+   "long": 5,
+   "long_K": 3000,
+   "abl": 25,
+   "mc": 200,
+   "t3": 25,
+   "t5": 25,
+   "signed": 25,
+   "time_rep": 5,
+   "t4_rep": 10
+  },
+  "quick": false
+ },
+ "Fig3.1": {
+  "scenario": "2° point source",
+  "final_snapshot_sinr_dB": {
+   "Standard MVDR": -11.03,
+   "DL-MVDR": -2.22,
+   "WC-MVDR [6]": 13.55,
+   "Adaptive single-WC [12]": 13.54,
+   "DAS-MBWC": 11.63,
+   "INC reconstruction [22]": 16.02,
+   "Optimum": 17.02
+  }
+ },
+ "Fig3.2": {
+  "null_depth_dB_at_interferers": {
+   "Standard MVDR": {
+    "45°": -42.8,
+    "-60°": -41.5
+   },
+   "DL-MVDR": {
+    "45°": -43.1,
+    "-60°": -43.0
+   },
+   "WC-MVDR [6]": {
+    "45°": -39.6,
+    "-60°": -33.6
+   },
+   "Adaptive single-WC [12]": {
+    "45°": -41.9,
+    "-60°": -32.6
+   },
+   "DAS-MBWC": {
+    "45°": -28.0,
+    "-60°": -28.9
+   },
+   "INC reconstruction [22]": {
+    "45°": -61.5,
+    "-60°": -52.4
+   },
+   "Optimum": {
+    "45°": -68.0,
+    "-60°": -77.9
+   }
+  }
+ },
+ "Fig3.3": {
+  "scenario": "5° point source",
+  "final_snapshot_sinr_dB": {
+   "Standard MVDR": -22.11,
+   "DL-MVDR": -15.68,
+   "WC-MVDR [6]": 4.89,
+   "Adaptive single-WC [12]": 4.76,
+   "DAS-MBWC": 10.21,
+   "INC reconstruction [22]": 9.41,
+   "Optimum": 17.02
+  }
+ },
+ "Fig3.4": {
+  "scenario": "2° sm. spread",
+  "final_snapshot_sinr_dB": {
+   "Standard MVDR": 6.7,
+   "DL-MVDR": 9.84,
+   "WC-MVDR [6]": 14.24,
+   "Adaptive single-WC [12]": 14.19,
+   "DAS-MBWC": 12.81,
+   "INC reconstruction [22]": 16.64,
+   "Optimum": 17.6
+  }
+ },
+ "Fig3.5": {
+  "scenario": "5° sm. spread",
+  "final_snapshot_sinr_dB": {
+   "Standard MVDR": 3.01,
+   "DL-MVDR": 5.79,
+   "WC-MVDR [6]": 9.97,
+   "Adaptive single-WC [12]": 9.9,
+   "DAS-MBWC": 11.45,
+   "INC reconstruction [22]": 10.17,
+   "Optimum": 17.6
+  }
+ },
+ "Fig3.6": {
+  "scenario": "7° point source",
+  "final_snapshot_sinr_dB": {
+   "Standard MVDR": -25.1,
+   "DL-MVDR": -24.81,
+   "WC-MVDR [6]": -25.65,
+   "Adaptive single-WC [12]": -23.37,
+   "DAS-MBWC": 6.57,
+   "INC reconstruction [22]": -4.23,
+   "Optimum": 17.02
+  }
+ },
+ "Fig3.7": {
+  "scenario": "5° lg. spread",
+  "final_snapshot_sinr_dB": {
+   "Standard MVDR": -18.26,
+   "DL-MVDR": -13.85,
+   "WC-MVDR [6]": 4.98,
+   "Adaptive single-WC [12]": 4.77,
+   "DAS-MBWC": 10.32,
+   "INC reconstruction [22]": 9.55,
+   "Optimum": 17.04
+  }
+ },
+ "Fig3.8": {
+  "scenario": "7° lg. spread",
+  "final_snapshot_sinr_dB": {
+   "Standard MVDR": -18.72,
+   "DL-MVDR": -17.34,
+   "WC-MVDR [6]": -12.0,
+   "Adaptive single-WC [12]": -11.81,
+   "DAS-MBWC": 6.43,
+   "INC reconstruction [22]": -4.01,
+   "Optimum": 17.04
+  }
+ },
+ "Fig3.9": {
+  "mismatch_deg": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "sinr_dB": {
+   "Standard MVDR": [
+    10.14,
+    -5.35,
+    -12.4,
+    -15.74,
+    -18.09,
+    -21.27,
+    -22.77,
+    -25.15,
+    -22.81
+   ],
+   "DL-MVDR": [
+    13.96,
+    3.94,
+    -2.51,
+    -6.72,
+    -10.15,
+    -14.83,
+    -19.6,
+    -25.73,
+    -22.97
+   ],
+   "WC-MVDR [6]": [
+    15.39,
+    14.72,
+    13.59,
+    12.19,
+    9.75,
+    4.92,
+    -5.68,
+    -23.69,
+    -13.1
+   ],
+   "Adaptive single-WC [12]": [
+    15.2,
+    14.76,
+    13.6,
+    12.12,
+    9.62,
+    4.75,
+    -5.65,
+    -22.9,
+    -13.35
+   ],
+   "DAS-MBWC": [
+    13.86,
+    13.0,
+    11.84,
+    10.88,
+    10.51,
+    10.18,
+    8.71,
+    6.77,
+    4.36
+   ],
+   "INC reconstruction [22]": [
+    16.66,
+    16.48,
+    16.03,
+    14.44,
+    13.18,
+    9.4,
+    8.27,
+    -4.01,
+    -17.51
+   ],
+   "Optimum": [
+    17.02,
+    17.02,
+    17.02,
+    17.02,
+    17.02,
+    17.02,
+    17.02,
+    17.02,
+    17.02
+   ]
+  },
+  "all_constraint_ablation_dB": [
+   12.76,
+   12.96,
+   11.84,
+   10.88,
+   10.19,
+   9.85,
+   9.45,
+   8.77,
+   7.47
+  ]
+ },
+ "Fig3.10": {
+  "mismatch_deg": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "sinr_dB": {
+   "Standard MVDR": [
+    9.21,
+    7.03,
+    6.87,
+    6.37,
+    5.34,
+    3.24,
+    1.07,
+    -1.07,
+    -3.39
+   ],
+   "DL-MVDR": [
+    13.56,
+    11.25,
+    9.81,
+    8.75,
+    7.63,
+    5.91,
+    4.17,
+    2.23,
+    0.24
+   ],
+   "WC-MVDR [6]": [
+    15.82,
+    15.17,
+    14.24,
+    13.17,
+    11.8,
+    9.97,
+    7.85,
+    5.89,
+    4.27
+   ],
+   "Adaptive single-WC [12]": [
+    15.75,
+    15.13,
+    14.22,
+    13.2,
+    11.61,
+    9.86,
+    7.75,
+    5.79,
+    4.09
+   ],
+   "DAS-MBWC": [
+    14.44,
+    13.26,
+    13.16,
+    12.03,
+    12.22,
+    11.65,
+    10.36,
+    8.88,
+    7.13
+   ],
+   "INC reconstruction [22]": [
+    17.41,
+    17.25,
+    16.64,
+    14.51,
+    13.0,
+    10.21,
+    9.49,
+    6.61,
+    4.08
+   ],
+   "Optimum": [
+    17.6,
+    17.6,
+    17.6,
+    17.6,
+    17.6,
+    17.6,
+    17.6,
+    17.6,
+    17.6
+   ]
+  },
+  "all_constraint_ablation_dB": [
+   13.55,
+   13.23,
+   13.06,
+   11.97,
+   11.37,
+   11.2,
+   10.29,
+   9.74,
+   8.47
+  ]
+ },
+ "Fig3.11": {
+  "Ideal": {
+   "DAS-MBWC": 9.95,
+   "INC reconstruction [22]": 9.39,
+   "WC-MVDR [6]": 4.96,
+   "Adaptive single-WC [12]": 4.84
+  },
+  "Gain 5%": {
+   "DAS-MBWC": 10.23,
+   "INC reconstruction [22]": 9.18,
+   "WC-MVDR [6]": 4.98,
+   "Adaptive single-WC [12]": 4.86
+  },
+  "Gain 10%": {
+   "DAS-MBWC": 10.13,
+   "INC reconstruction [22]": 8.67,
+   "WC-MVDR [6]": 4.92,
+   "Adaptive single-WC [12]": 4.84
+  },
+  "Phase 5°": {
+   "DAS-MBWC": 10.15,
+   "INC reconstruction [22]": 8.7,
+   "WC-MVDR [6]": 4.68,
+   "Adaptive single-WC [12]": 4.53
+  },
+  "Phase 10°": {
+   "DAS-MBWC": 9.61,
+   "INC reconstruction [22]": 7.52,
+   "WC-MVDR [6]": 4.37,
+   "Adaptive single-WC [12]": 4.32
+  },
+  "Pos 0.02λ": {
+   "DAS-MBWC": 10.06,
+   "INC reconstruction [22]": 8.69,
+   "WC-MVDR [6]": 4.77,
+   "Adaptive single-WC [12]": 4.73
+  },
+  "Pos 0.05λ": {
+   "DAS-MBWC": 8.98,
+   "INC reconstruction [22]": 6.3,
+   "WC-MVDR [6]": 4.2,
+   "Adaptive single-WC [12]": 4.06
+  },
+  "Combined": {
+   "DAS-MBWC": 9.61,
+   "INC reconstruction [22]": 7.87,
+   "WC-MVDR [6]": 4.52,
+   "Adaptive single-WC [12]": 4.32
+  }
+ },
+ "Fig3.12": {
+  "Interference outside the declared region": {
+   "DAS-MBWC": {
+    "16": 9.27,
+    "64": 14.22,
+    "128": 18.3
+   },
+   "INC reconstruction [22]": {
+    "16": 5.95,
+    "64": 18.99,
+    "128": 25.92
+   },
+   "WC-MVDR [6]": {
+    "16": -24.44,
+    "64": -25.07,
+    "128": -24.03
+   },
+   "Adaptive single-WC [12]": {
+    "16": -24.54,
+    "64": -22.83,
+    "128": -22.89
+   },
+   "Optimum": {
+    "16": 17.02,
+    "64": 23.06,
+    "128": 26.07
+   }
+  },
+  "One interferer inside the declared region": {
+   "DAS-MBWC": {
+    "16": -0.59,
+    "64": 5.54,
+    "128": 10.43
+   },
+   "INC reconstruction [22]": {
+    "16": -16.98,
+    "64": -29.67,
+    "128": -45.91
+   },
+   "WC-MVDR [6]": {
+    "16": -20.58,
+    "64": -28.14,
+    "128": -24.8
+   },
+   "Adaptive single-WC [12]": {
+    "16": -20.53,
+    "64": -25.43,
+    "128": -22.45
+   },
+   "Optimum": {
+    "16": 16.89,
+    "64": 23.05,
+    "128": 26.07
+   }
+  }
+ },
+ "Fig3.13": {
+  "smoothing_weight": {
+   "0.4": 10.44,
+   "0.5": 10.41,
+   "0.6": 10.04,
+   "0.7": 10.04,
+   "0.8": 9.93,
+   "0.85": 9.59,
+   "0.9": 7.97
+  },
+  "clipping_range": {
+   "[0.9, 1.1]": 4.16,
+   "[0.8, 1.25]": 5.17,
+   "[0.65, 1.5]": 6.75,
+   "[0.5, 2.0]": 9.93,
+   "[0.35, 3.0]": 10.93,
+   "[0.25, 4.0]": 10.88
+  },
+  "adaptation_period": {
+   "10": 10.4,
+   "20": 10.02,
+   "30": 9.93,
+   "40": 9.74,
+   "50": 8.11,
+   "70": 8.12
+  }
+ },
+ "Fig3.14": {
+  "environment": {
+   "machine": "x86_64",
+   "cores": 2,
+   "python": "3.13.18",
+   "numpy": "2.5.3",
+   "scipy": "1.18.1",
+   "cvxpy": "1.9.3",
+   "scs": "3.3.2",
+   "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz"
+  },
+  "rows": [
+   {
+    "M": 16,
+    "das_mbwc_us_per_snapshot": 71.5,
+    "wc_mvdr_us_per_solve": 150.9,
+    "speedup": 2.1
+   },
+   {
+    "M": 32,
+    "das_mbwc_us_per_snapshot": 61.5,
+    "wc_mvdr_us_per_solve": 258.9,
+    "speedup": 4.2
+   },
+   {
+    "M": 64,
+    "das_mbwc_us_per_snapshot": 86.8,
+    "wc_mvdr_us_per_solve": 821.5,
+    "speedup": 9.5
+   },
+   {
+    "M": 128,
+    "das_mbwc_us_per_snapshot": 179.4,
+    "wc_mvdr_us_per_solve": 2862.3,
+    "speedup": 16.0
+   },
+   {
+    "M": 256,
+    "das_mbwc_us_per_snapshot": 629.3,
+    "wc_mvdr_us_per_solve": 10775.9,
+    "speedup": 17.1
+   }
+  ]
+ },
+ "Table3.2": {
+  "2° point source": {
+   "Std MVDR": -11.0,
+   "DL-MVDR": -2.2,
+   "WC [6]": 13.6,
+   "1-WC [12]": 13.5,
+   "INC [22]": 16.0,
+   "All-constr.": 11.6,
+   "DAS-MBWC": 11.6,
+   "Optimum": 17.0
+  },
+  "2° sm. spread": {
+   "Std MVDR": 6.7,
+   "DL-MVDR": 9.8,
+   "WC [6]": 14.2,
+   "1-WC [12]": 14.2,
+   "INC [22]": 16.6,
+   "All-constr.": 12.8,
+   "DAS-MBWC": 12.8,
+   "Optimum": 17.6
+  },
+  "5° point source": {
+   "Std MVDR": -22.1,
+   "DL-MVDR": -15.7,
+   "WC [6]": 4.9,
+   "1-WC [12]": 4.8,
+   "INC [22]": 9.4,
+   "All-constr.": 9.7,
+   "DAS-MBWC": 10.2,
+   "Optimum": 17.0
+  },
+  "5° sm. spread": {
+   "Std MVDR": 3.0,
+   "DL-MVDR": 5.8,
+   "WC [6]": 10.0,
+   "1-WC [12]": 9.9,
+   "INC [22]": 10.2,
+   "All-constr.": 11.1,
+   "DAS-MBWC": 11.5,
+   "Optimum": 17.6
+  },
+  "5° lg. spread": {
+   "Std MVDR": -18.3,
+   "DL-MVDR": -13.9,
+   "WC [6]": 5.0,
+   "1-WC [12]": 4.8,
+   "INC [22]": 9.6,
+   "All-constr.": 9.8,
+   "DAS-MBWC": 10.3,
+   "Optimum": 17.0
+  },
+  "7° point source": {
+   "Std MVDR": -25.1,
+   "DL-MVDR": -24.8,
+   "WC [6]": -25.7,
+   "1-WC [12]": -23.4,
+   "INC [22]": -4.2,
+   "All-constr.": 8.6,
+   "DAS-MBWC": 6.6,
+   "Optimum": 17.0
+  },
+  "7° sm. spread": {
+   "Std MVDR": -1.1,
+   "DL-MVDR": 2.2,
+   "WC [6]": 5.9,
+   "1-WC [12]": 5.8,
+   "INC [22]": 6.7,
+   "All-constr.": 9.8,
+   "DAS-MBWC": 8.9,
+   "Optimum": 17.6
+  },
+  "7° lg. spread": {
+   "Std MVDR": -18.7,
+   "DL-MVDR": -17.3,
+   "WC [6]": -12.0,
+   "1-WC [12]": -11.8,
+   "INC [22]": -4.0,
+   "All-constr.": 8.4,
+   "DAS-MBWC": 6.4,
+   "Optimum": 17.0
+  }
+ },
+ "Table3.3": {
+  "2° point source": {
+   "DAS-MBWC": 11.6,
+   "SOCP": 12.5,
+   "difference": -0.88,
+   "difference_ci95": 0.28,
+   "solver_status": {
+    "optimal": 25
+   },
+   "max_constraint_residual": 8.45038660215458e-05
+  },
+  "2° sm. spread": {
+   "DAS-MBWC": 12.8,
+   "SOCP": 13.6,
+   "difference": -0.81,
+   "difference_ci95": 0.33,
+   "solver_status": {
+    "optimal": 25
+   },
+   "max_constraint_residual": 4.161881261222078e-05
+  },
+  "5° point source": {
+   "DAS-MBWC": 10.2,
+   "SOCP": 10.4,
+   "difference": -0.2,
+   "difference_ci95": 0.15,
+   "solver_status": {
+    "optimal": 25
+   },
+   "max_constraint_residual": 7.382429159630277e-05
+  },
+  "5° sm. spread": {
+   "DAS-MBWC": 11.5,
+   "SOCP": 11.8,
+   "difference": -0.36,
+   "difference_ci95": 0.21,
+   "solver_status": {
+    "optimal": 25
+   },
+   "max_constraint_residual": 5.441751786250393e-05
+  },
+  "5° lg. spread": {
+   "DAS-MBWC": 10.3,
+   "SOCP": 10.5,
+   "difference": -0.18,
+   "difference_ci95": 0.21,
+   "solver_status": {
+    "optimal": 25
+   },
+   "max_constraint_residual": 8.72947076495656e-05
+  },
+  "7° point source": {
+   "DAS-MBWC": 6.6,
+   "SOCP": -5.9,
+   "difference": 12.52,
+   "difference_ci95": 0.31,
+   "solver_status": {
+    "optimal": 25
+   },
+   "max_constraint_residual": 2.6256759682041775e-05
+  },
+  "7° sm. spread": {
+   "DAS-MBWC": 8.9,
+   "SOCP": 7.4,
+   "difference": 1.48,
+   "difference_ci95": 0.16,
+   "solver_status": {
+    "optimal": 25
+   },
+   "max_constraint_residual": 0.00011089236384709267
+  },
+  "7° lg. spread": {
+   "DAS-MBWC": 6.4,
+   "SOCP": -6.1,
+   "difference": 12.5,
+   "difference_ci95": 0.34,
+   "solver_status": {
+    "optimal": 25
+   },
+   "max_constraint_residual": 4.3860446119481367e-07
+  }
+ },
+ "Table3.4": {
+  "environment": {
+   "machine": "x86_64",
+   "cores": 2,
+   "python": "3.13.18",
+   "numpy": "2.5.3",
+   "scipy": "1.18.1",
+   "cvxpy": "1.9.3",
+   "scs": "3.3.2",
+   "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz"
+  },
+  "rows": {
+   "16": {
+    "SCS_ms": 1.47,
+    "SCS_wall_ms": 10.39,
+    "DAS_MBWC_ms": 0.0224,
+    "speedup": 66.0,
+    "corrections_timed": 295
+   },
+   "32": {
+    "SCS_ms": 2.84,
+    "SCS_wall_ms": 13.83,
+    "DAS_MBWC_ms": 0.0261,
+    "speedup": 109.0,
+    "corrections_timed": 300
+   },
+   "64": {
+    "SCS_ms": 5.95,
+    "SCS_wall_ms": 20.26,
+    "DAS_MBWC_ms": 0.0296,
+    "speedup": 201.0,
+    "corrections_timed": 300
+   },
+   "128": {
+    "SCS_ms": 17.12,
+    "SCS_wall_ms": 49.56,
+    "DAS_MBWC_ms": 0.0341,
+    "speedup": 503.0,
+    "corrections_timed": 300
+   }
+  }
+ },
+ "Table3.5": {
+  "Point grid near presumed dir.": {
+   "5°": 10.3,
+   "7°": 6.8
+  },
+  "Point grid + multipath dirs (−25°, +35°)": {
+   "5°": 8.9,
+   "7°": 7.1
+  },
+  "Point grid + constraint at +44°": {
+   "5°": -1.0,
+   "7°": -4.5
+  },
+  "Point grid + constraints on interferers (45°, −60°)": {
+   "5°": -3.9,
+   "7°": -6.9
+  }
+ },
+ "Table3.6": {
+  "2° point source": {
+   "SINR s.d. (dB)": 0.79,
+   "Set change rate": 0.0,
+   "Two-cycle fraction": 0.0,
+   "Mean |A|": 4.0,
+   "Resets without": 2.0,
+   "Resets with": 0.0,
+   "SINR last 500 (dB)": 13.2,
+   "max ||w|| with rescaling": 998565287398.2823
+  },
+  "2° sm. spread": {
+   "SINR s.d. (dB)": 0.86,
+   "Set change rate": 0.0,
+   "Two-cycle fraction": 0.0,
+   "Mean |A|": 4.0,
+   "Resets without": 2.0,
+   "Resets with": 0.0,
+   "SINR last 500 (dB)": 13.9,
+   "max ||w|| with rescaling": 998553142892.3965
+  },
+  "5° point source": {
+   "SINR s.d. (dB)": 0.87,
+   "Set change rate": 0.546,
+   "Two-cycle fraction": 0.395,
+   "Mean |A|": 3.05,
+   "Resets without": 2.0,
+   "Resets with": 0.0,
+   "SINR last 500 (dB)": 10.6,
+   "max ||w|| with rescaling": 998410799638.8569
+  },
+  "5° sm. spread": {
+   "SINR s.d. (dB)": 0.84,
+   "Set change rate": 0.59,
+   "Two-cycle fraction": 0.409,
+   "Mean |A|": 3.07,
+   "Resets without": 2.0,
+   "Resets with": 0.0,
+   "SINR last 500 (dB)": 11.9,
+   "max ||w|| with rescaling": 999896745956.8599
+  },
+  "5° lg. spread": {
+   "SINR s.d. (dB)": 0.81,
+   "Set change rate": 0.542,
+   "Two-cycle fraction": 0.399,
+   "Mean |A|": 3.06,
+   "Resets without": 2.0,
+   "Resets with": 0.0,
+   "SINR last 500 (dB)": 10.5,
+   "max ||w|| with rescaling": 999699814602.0626
+  },
+  "7° point source": {
+   "SINR s.d. (dB)": 1.4,
+   "Set change rate": 0.0,
+   "Two-cycle fraction": 0.0,
+   "Mean |A|": 3.0,
+   "Resets without": 3.0,
+   "Resets with": 0.0,
+   "SINR last 500 (dB)": 7.5,
+   "max ||w|| with rescaling": 996773453655.756
+  },
+  "7° sm. spread": {
+   "SINR s.d. (dB)": 0.72,
+   "Set change rate": 0.001,
+   "Two-cycle fraction": 0.001,
+   "Mean |A|": 3.0,
+   "Resets without": 2.0,
+   "Resets with": 0.0,
+   "SINR last 500 (dB)": 9.2,
+   "max ||w|| with rescaling": 999987579955.2151
+  },
+  "7° lg. spread": {
+   "SINR s.d. (dB)": 1.34,
+   "Set change rate": 0.0,
+   "Two-cycle fraction": 0.0,
+   "Mean |A|": 3.0,
+   "Resets without": 3.0,
+   "Resets with": 0.0,
+   "SINR last 500 (dB)": 7.5,
+   "max ||w|| with rescaling": 995564117138.5393
+  }
+ },
+ "text": {
+  "steering_distances": {
+   "0-1 deg": 1.9,
+   "0-2 deg": 3.59,
+   "0-3 deg": 4.92,
+   "0-5 deg": 6.13,
+   "0-7 deg": 5.73
+  },
+  "steering_distance_7deg_to_constraint_at_3deg": 4.92,
+  "clairvoyant_optimum_dB": {
+   "point source": 17.0,
+   "small spread": 17.6,
+   "large spread": 17.0
+  },
+  "Table3.2_with_200_trials": {
+   "2° point source": {
+    "Std MVDR": [
+     -11.44,
+     0.25
+    ],
+    "DL-MVDR": [
+     -2.21,
+     0.11
+    ],
+    "WC [6]": [
+     13.61,
+     0.04
+    ],
+    "1-WC [12]": [
+     13.57,
+     0.06
+    ],
+    "INC [22]": [
+     16.02,
+     0.0
+    ],
+    "DAS-MBWC": [
+     11.76,
+     0.12
+    ],
+    "All-constr.": [
+     11.75,
+     0.11
+    ]
+   },
+   "2° sm. spread": {
+    "Std MVDR": [
+     6.76,
+     0.1
+    ],
+    "DL-MVDR": [
+     9.87,
+     0.06
+    ],
+    "WC [6]": [
+     14.27,
+     0.03
+    ],
+    "1-WC [12]": [
+     14.21,
+     0.05
+    ],
+    "INC [22]": [
+     16.63,
+     0.0
+    ],
+    "DAS-MBWC": [
+     12.72,
+     0.15
+    ],
+    "All-constr.": [
+     12.72,
+     0.15
+    ]
+   },
+   "5° point source": {
+    "Std MVDR": [
+     -23.14,
+     0.8
+    ],
+    "DL-MVDR": [
+     -15.27,
+     0.37
+    ],
+    "WC [6]": [
+     4.91,
+     0.03
+    ],
+    "1-WC [12]": [
+     4.76,
+     0.05
+    ],
+    "INC [22]": [
+     9.37,
+     0.03
+    ],
+    "DAS-MBWC": [
+     10.24,
+     0.09
+    ],
+    "All-constr.": [
+     9.8,
+     0.08
+    ]
+   },
+   "5° sm. spread": {
+    "Std MVDR": [
+     3.32,
+     0.08
+    ],
+    "DL-MVDR": [
+     5.98,
+     0.06
+    ],
+    "WC [6]": [
+     10.03,
+     0.04
+    ],
+    "1-WC [12]": [
+     9.92,
+     0.06
+    ],
+    "INC [22]": [
+     10.19,
+     0.01
+    ],
+    "DAS-MBWC": [
+     11.72,
+     0.09
+    ],
+    "All-constr.": [
+     11.17,
+     0.09
+    ]
+   },
+   "5° lg. spread": {
+    "Std MVDR": [
+     -18.12,
+     0.4
+    ],
+    "DL-MVDR": [
+     -13.87,
+     0.29
+    ],
+    "WC [6]": [
+     4.98,
+     0.03
+    ],
+    "1-WC [12]": [
+     4.83,
+     0.05
+    ],
+    "INC [22]": [
+     9.5,
+     0.02
+    ],
+    "DAS-MBWC": [
+     10.22,
+     0.08
+    ],
+    "All-constr.": [
+     9.85,
+     0.08
+    ]
+   },
+   "7° point source": {
+    "Std MVDR": [
+     -25.62,
+     0.75
+    ],
+    "DL-MVDR": [
+     -25.73,
+     0.73
+    ],
+    "WC [6]": [
+     -23.57,
+     0.64
+    ],
+    "1-WC [12]": [
+     -23.35,
+     0.86
+    ],
+    "INC [22]": [
+     -4.11,
+     0.06
+    ],
+    "DAS-MBWC": [
+     6.67,
+     0.08
+    ],
+    "All-constr.": [
+     8.65,
+     0.09
+    ]
+   },
+   "7° sm. spread": {
+    "Std MVDR": [
+     -1.16,
+     0.07
+    ],
+    "DL-MVDR": [
+     2.23,
+     0.05
+    ],
+    "WC [6]": [
+     5.93,
+     0.03
+    ],
+    "1-WC [12]": [
+     5.79,
+     0.05
+    ],
+    "INC [22]": [
+     6.6,
+     0.01
+    ],
+    "DAS-MBWC": [
+     8.79,
+     0.08
+    ],
+    "All-constr.": [
+     9.65,
+     0.09
+    ]
+   },
+   "7° lg. spread": {
+    "Std MVDR": [
+     -18.44,
+     0.39
+    ],
+    "DL-MVDR": [
+     -17.36,
+     0.33
+    ],
+    "WC [6]": [
+     -12.01,
+     0.09
+    ],
+    "1-WC [12]": [
+     -12.0,
+     0.12
+    ],
+    "INC [22]": [
+     -3.67,
+     0.06
+    ],
+    "DAS-MBWC": [
+     6.77,
+     0.07
+    ],
+    "All-constr.": [
+     8.77,
+     0.08
+    ]
+   }
+  },
+  "slater_margin": {
+   "2 deg": {
+    "t*(nu0)": 1.076,
+    "t*(1.832 nu0)": -0.172,
+    "t*(2 nu0)": -0.43,
+    "limit s": 1.72
+   },
+   "5 deg": {
+    "t*(nu0)": 1.078,
+    "t*(1.832 nu0)": -0.169,
+    "t*(2 nu0)": -0.428,
+    "limit s": 1.721
+   },
+   "7 deg": {
+    "t*(nu0)": 1.08,
+    "t*(1.832 nu0)": -0.167,
+    "t*(2 nu0)": -0.425,
+    "limit s": 1.723
+   }
+  },
+  "subset_limits": {
+   "2 deg": {
+    "[0, 1, 2]": 1.846,
+    "[0, 1, 3]": 1.789,
+    "[0, 2, 3]": 1.72,
+    "[1, 2, 3]": 1.8,
+    "[0, 1]": 2.047,
+    "[0, 2]": 2.048,
+    "[0, 3]": 1.789,
+    "[1, 2]": 1.847,
+    "[1, 3]": 2.629,
+    "[2, 3]": 1.993
+   },
+   "5 deg": {
+    "[0, 1, 2]": 1.849,
+    "[0, 1, 3]": 1.79,
+    "[0, 2, 3]": 1.721,
+    "[1, 2, 3]": 1.801,
+    "[0, 1]": 2.048,
+    "[0, 2]": 2.049,
+    "[0, 3]": 1.79,
+    "[1, 2]": 1.849,
+    "[1, 3]": 2.629,
+    "[2, 3]": 1.992
+   },
+   "7 deg": {
+    "[0, 1, 2]": 1.852,
+    "[0, 1, 3]": 1.791,
+    "[0, 2, 3]": 1.723,
+    "[1, 2, 3]": 1.803,
+    "[0, 1]": 2.049,
+    "[0, 2]": 2.05,
+    "[0, 3]": 1.791,
+    "[1, 2]": 1.852,
+    "[1, 3]": 2.63,
+    "[2, 3]": 1.99
+   }
+  },
+  "bound_ramp_s_n": {
+   "1": 1.2,
+   "2": 1.36,
+   "3": 1.488,
+   "4": 1.59,
+   "5": 1.672,
+   "6": 1.738,
+   "7": 1.79,
+   "8": 1.832,
+   "9": 1.866
+  },
+  "bound_ablation": {
+   "2° point source": {
+    "adaptive": 11.6,
+    "fixed_nu0": 10.3
+   },
+   "2° sm. spread": {
+    "adaptive": 12.8,
+    "fixed_nu0": 11.5
+   },
+   "5° point source": {
+    "adaptive": 10.3,
+    "fixed_nu0": 3.4
+   },
+   "5° sm. spread": {
+    "adaptive": 11.9,
+    "fixed_nu0": 7.7
+   },
+   "5° lg. spread": {
+    "adaptive": 10.3,
+    "fixed_nu0": 3.7
+   },
+   "7° point source": {
+    "adaptive": 6.7,
+    "fixed_nu0": -16.2
+   },
+   "7° sm. spread": {
+    "adaptive": 8.9,
+    "fixed_nu0": 4.2
+   },
+   "7° lg. spread": {
+    "adaptive": 6.9,
+    "fixed_nu0": -13.8
+   }
+  },
+  "correction_ratio": {
+   "2° point source": {
+    "median": 0.087,
+    "mean": 0.087,
+    "p90": 0.105
+   },
+   "2° sm. spread": {
+    "median": 0.089,
+    "mean": 0.089,
+    "p90": 0.107
+   },
+   "5° point source": {
+    "median": 0.07,
+    "mean": 0.182,
+    "p90": 0.505
+   },
+   "5° sm. spread": {
+    "median": 0.071,
+    "mean": 0.187,
+    "p90": 0.528
+   },
+   "5° lg. spread": {
+    "median": 0.069,
+    "mean": 0.181,
+    "p90": 0.508
+   },
+   "7° point source": {
+    "median": 0.063,
+    "mean": 0.064,
+    "p90": 0.092
+   },
+   "7° sm. spread": {
+    "median": 0.067,
+    "mean": 0.068,
+    "p90": 0.093
+   },
+   "7° lg. spread": {
+    "median": 0.063,
+    "mean": 0.064,
+    "p90": 0.092
+   }
+  },
+  "feasibility_check": {
+   "2° point source": {
+    "worst_at_nu0": -0.742,
+    "best_at_1832nu0": 0.284
+   },
+   "2° sm. spread": {
+    "worst_at_nu0": -0.737,
+    "best_at_1832nu0": 0.284
+   },
+   "5° point source": {
+    "worst_at_nu0": -0.694,
+    "best_at_1832nu0": 0.21
+   },
+   "5° sm. spread": {
+    "worst_at_nu0": -0.69,
+    "best_at_1832nu0": 0.195
+   },
+   "5° lg. spread": {
+    "worst_at_nu0": -0.692,
+    "best_at_1832nu0": 0.208
+   },
+   "7° point source": {
+    "worst_at_nu0": -0.748,
+    "best_at_1832nu0": 0.249
+   },
+   "7° sm. spread": {
+    "worst_at_nu0": -0.745,
+    "best_at_1832nu0": 0.262
+   },
+   "7° lg. spread": {
+    "worst_at_nu0": -0.748,
+    "best_at_1832nu0": 0.267
+   }
+  },
+  "signed_mismatch": {
+   "angles_deg": [
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "asymmetric_grid_dB": [
+    1.4,
+    5.5,
+    8.4,
+    10.2,
+    11.4,
+    12.1,
+    12.4,
+    13.6,
+    12.7,
+    12.0,
+    11.3,
+    10.6,
+    10.2,
+    8.6,
+    6.5
+   ],
+   "symmetric_grid_dB": [
+    7.4,
+    9.4,
+    9.8,
+    10.8,
+    11.2,
+    11.8,
+    12.3,
+    13.0,
+    12.8,
+    12.0,
+    11.4,
+    10.8,
+    9.3,
+    9.2,
+    6.9
+   ]
+  }
+ }
+}

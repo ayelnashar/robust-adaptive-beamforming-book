@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the book chapter and the papers listed below."
+title: "Chapter 3: Efficient Solving Under Multiple Constraints (Python simulations)"
+version: 1.0.0
+date-released: 2026-11-19
+license: MIT
+authors:
+  - family-names: Elnashar
+    given-names: Ayman
+preferred-citation:
+  type: book
+  title: "Robust Adaptive Beamforming and Its Applications"
+  authors:
+    - family-names: Elnashar
+      given-names: Ayman
+  publisher:
+    name: "Wiley"
+  notes: "Forthcoming. Chapter 3, Efficient Solving Under Multiple Constraints."
+references:
+  - type: article
+    title: "Selective Constraint Enforcement in Robust LCMV Beamforming: A Dual-Space Active-Set Method"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    status: submitted
+  - type: article
+    title: "Efficient implementation of robust adaptive beamforming based on worst-case performance optimisation"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    journal: "IET Signal Processing"
+    volume: 2
+    issue: 4
+    start: 381
+    end: 393
+    year: 2008
+    doi: 10.1049/iet-spr:20070162
+  - type: book
+    title: "Simplified Robust Adaptive Detection and Beamforming for Wireless Communications"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    publisher:
+      name: "Wiley"
+    year: 2018
+    doi: 10.1002/9781118938218

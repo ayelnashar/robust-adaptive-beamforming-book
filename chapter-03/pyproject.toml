@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ch3dasmbwc"
+version = "1.0.0"
+description = "Chapter 3 simulations: DAS-MBWC, a dual-space active-set beamformer with multiple worst-case constraints, and its comparators"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Ayman Elnashar"}]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "cvxpy>=1.4",
+    "clarabel>=0.6",
+    "scs>=3.2",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter", "nbformat", "nbconvert"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["ch3dasmbwc"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
