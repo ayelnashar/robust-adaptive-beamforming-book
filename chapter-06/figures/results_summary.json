@@ -1,0 +1,2632 @@
+{
+ "Figure 6.1": {
+  "x": "number of APs L",
+  "points": {
+   "4": {
+    "D-CF-RAB": [
+     16.323,
+     2.901,
+     13.04
+    ],
+    "MR + CPU combiner": [
+     16.301,
+     2.922,
+     13.002
+    ],
+    "LP-MMSE + CPU combiner": [
+     19.367,
+     1.279,
+     17.362
+    ],
+    "Local MVDR + CPU combiner": [
+     13.386,
+     0.739,
+     11.937
+    ],
+    "CF-RAB (centralized)": [
+     10.115,
+     1.195,
+     8.521
+    ],
+    "Primary-ball SOCP": [
+     10.158,
+     1.178,
+     8.559
+    ],
+    "P-MMSE [6]": [
+     21.907,
+     1.31,
+     20.226
+    ],
+    "LP-MMSE [6]": [
+     17.733,
+     1.384,
+     15.842
+    ],
+    "INCM reconstruction": [
+     8.934,
+     1.562,
+     6.163
+    ],
+    "MR [6]": [
+     3.425,
+     2.963,
+     0.828
+    ]
+   },
+   "8": {
+    "D-CF-RAB": [
+     23.176,
+     1.588,
+     21.949
+    ],
+    "MR + CPU combiner": [
+     23.173,
+     1.603,
+     21.946
+    ],
+    "LP-MMSE + CPU combiner": [
+     23.694,
+     1.41,
+     22.492
+    ],
+    "Local MVDR + CPU combiner": [
+     18.09,
+     0.571,
+     16.71
+    ],
+    "CF-RAB (centralized)": [
+     13.731,
+     0.564,
+     11.988
+    ],
+    "Primary-ball SOCP": [
+     13.744,
+     0.562,
+     12.002
+    ],
+    "P-MMSE [6]": [
+     26.078,
+     0.83,
+     25.054
+    ],
+    "LP-MMSE [6]": [
+     21.965,
+     1.104,
+     20.754
+    ],
+    "INCM reconstruction": [
+     12.2,
+     0.618,
+     9.987
+    ],
+    "MR [6]": [
+     6.017,
+     3.525,
+     4.18
+    ]
+   },
+   "16": {
+    "D-CF-RAB": [
+     25.736,
+     1.501,
+     24.703
+    ],
+    "MR + CPU combiner": [
+     25.729,
+     1.501,
+     24.684
+    ],
+    "LP-MMSE + CPU combiner": [
+     25.152,
+     1.328,
+     24.038
+    ],
+    "Local MVDR + CPU combiner": [
+     22.249,
+     0.559,
+     21.511
+    ],
+    "CF-RAB (centralized)": [
+     15.531,
+     0.844,
+     13.777
+    ],
+    "Primary-ball SOCP": [
+     15.536,
+     0.845,
+     13.783
+    ],
+    "P-MMSE [6]": [
+     28.301,
+     0.716,
+     27.482
+    ],
+    "LP-MMSE [6]": [
+     23.019,
+     1.224,
+     21.866
+    ],
+    "INCM reconstruction": [
+     14.348,
+     1.174,
+     12.136
+    ],
+    "MR [6]": [
+     3.642,
+     2.996,
+     2.376
+    ]
+   }
+  }
+ },
+ "Figure 6.2": {
+  "x": "CSI uncertainty radius eps",
+  "points": {
+   "0.005": {
+    "D-CF-RAB": [
+     27.537,
+     1.659,
+     26.307
+    ],
+    "MR + CPU combiner": [
+     27.528,
+     1.663,
+     26.298
+    ],
+    "LP-MMSE + CPU combiner": [
+     27.405,
+     1.455,
+     26.202
+    ],
+    "Local MVDR + CPU combiner": [
+     23.745,
+     0.958,
+     22.778
+    ],
+    "CF-RAB (centralized)": [
+     16.489,
+     0.757,
+     14.851
+    ],
+    "Primary-ball SOCP": [
+     16.49,
+     0.757,
+     14.852
+    ],
+    "P-MMSE [6]": [
+     30.026,
+     0.922,
+     29.097
+    ],
+    "LP-MMSE [6]": [
+     25.023,
+     1.767,
+     24.052
+    ],
+    "INCM reconstruction": [
+     14.65,
+     1.868,
+     12.88
+    ],
+    "MR [6]": [
+     4.597,
+     4.523,
+     2.777
+    ]
+   },
+   "0.01": {
+    "D-CF-RAB": [
+     27.527,
+     1.66,
+     26.296
+    ],
+    "MR + CPU combiner": [
+     27.519,
+     1.664,
+     26.287
+    ],
+    "LP-MMSE + CPU combiner": [
+     27.39,
+     1.459,
+     26.178
+    ],
+    "Local MVDR + CPU combiner": [
+     23.733,
+     0.957,
+     22.764
+    ],
+    "CF-RAB (centralized)": [
+     16.49,
+     0.765,
+     14.851
+    ],
+    "Primary-ball SOCP": [
+     16.491,
+     0.765,
+     14.852
+    ],
+    "P-MMSE [6]": [
+     30.014,
+     0.924,
+     29.085
+    ],
+    "LP-MMSE [6]": [
+     25.007,
+     1.77,
+     24.038
+    ],
+    "INCM reconstruction": [
+     14.643,
+     1.86,
+     12.874
+    ],
+    "MR [6]": [
+     4.597,
+     4.524,
+     2.777
+    ]
+   },
+   "0.02": {
+    "D-CF-RAB": [
+     27.486,
+     1.663,
+     26.252
+    ],
+    "MR + CPU combiner": [
+     27.478,
+     1.667,
+     26.243
+    ],
+    "LP-MMSE + CPU combiner": [
+     27.331,
+     1.472,
+     26.101
+    ],
+    "Local MVDR + CPU combiner": [
+     23.684,
+     0.954,
+     22.709
+    ],
+    "CF-RAB (centralized)": [
+     16.49,
+     0.784,
+     14.85
+    ],
+    "Primary-ball SOCP": [
+     16.491,
+     0.784,
+     14.851
+    ],
+    "P-MMSE [6]": [
+     29.966,
+     0.93,
+     29.034
+    ],
+    "LP-MMSE [6]": [
+     24.948,
+     1.78,
+     23.981
+    ],
+    "INCM reconstruction": [
+     14.63,
+     1.851,
+     12.866
+    ],
+    "MR [6]": [
+     4.598,
+     4.524,
+     2.777
+    ]
+   },
+   "0.03": {
+    "D-CF-RAB": [
+     27.419,
+     1.668,
+     26.179
+    ],
+    "MR + CPU combiner": [
+     27.411,
+     1.672,
+     26.171
+    ],
+    "LP-MMSE + CPU combiner": [
+     27.237,
+     1.493,
+     25.986
+    ],
+    "Local MVDR + CPU combiner": [
+     23.605,
+     0.949,
+     22.622
+    ],
+    "CF-RAB (centralized)": [
+     16.486,
+     0.803,
+     14.845
+    ],
+    "Primary-ball SOCP": [
+     16.488,
+     0.802,
+     14.846
+    ],
+    "P-MMSE [6]": [
+     29.887,
+     0.942,
+     28.952
+    ],
+    "LP-MMSE [6]": [
+     24.853,
+     1.796,
+     23.886
+    ],
+    "INCM reconstruction": [
+     14.617,
+     1.842,
+     12.853
+    ],
+    "MR [6]": [
+     4.598,
+     4.525,
+     2.778
+    ]
+   },
+   "0.05": {
+    "D-CF-RAB": [
+     27.212,
+     1.681,
+     25.958
+    ],
+    "MR + CPU combiner": [
+     27.204,
+     1.686,
+     25.949
+    ],
+    "LP-MMSE + CPU combiner": [
+     26.956,
+     1.556,
+     25.654
+    ],
+    "Local MVDR + CPU combiner": [
+     23.368,
+     0.936,
+     22.362
+    ],
+    "CF-RAB (centralized)": [
+     16.471,
+     0.842,
+     14.826
+    ],
+    "Primary-ball SOCP": [
+     16.474,
+     0.842,
+     14.829
+    ],
+    "P-MMSE [6]": [
+     29.648,
+     0.977,
+     28.695
+    ],
+    "LP-MMSE [6]": [
+     24.564,
+     1.847,
+     23.59
+    ],
+    "INCM reconstruction": [
+     14.592,
+     1.823,
+     12.825
+    ],
+    "MR [6]": [
+     4.599,
+     4.526,
+     2.779
+    ]
+   },
+   "0.07": {
+    "D-CF-RAB": [
+     26.923,
+     1.698,
+     25.652
+    ],
+    "MR + CPU combiner": [
+     26.916,
+     1.704,
+     25.643
+    ],
+    "LP-MMSE + CPU combiner": [
+     26.572,
+     1.64,
+     25.21
+    ],
+    "Local MVDR + CPU combiner": [
+     23.045,
+     0.923,
+     22.009
+    ],
+    "CF-RAB (centralized)": [
+     16.446,
+     0.883,
+     14.795
+    ],
+    "Primary-ball SOCP": [
+     16.449,
+     0.882,
+     14.799
+    ],
+    "P-MMSE [6]": [
+     29.315,
+     1.029,
+     28.322
+    ],
+    "LP-MMSE [6]": [
+     24.157,
+     1.923,
+     23.164
+    ],
+    "INCM reconstruction": [
+     14.555,
+     1.814,
+     12.785
+    ],
+    "MR [6]": [
+     4.6,
+     4.526,
+     2.779
+    ]
+   },
+   "0.1": {
+    "D-CF-RAB": [
+     26.379,
+     1.731,
+     25.08
+    ],
+    "MR + CPU combiner": [
+     26.373,
+     1.737,
+     25.072
+    ],
+    "LP-MMSE + CPU combiner": [
+     25.862,
+     1.786,
+     24.404
+    ],
+    "Local MVDR + CPU combiner": [
+     22.453,
+     0.91,
+     21.361
+    ],
+    "CF-RAB (centralized)": [
+     16.387,
+     0.943,
+     14.724
+    ],
+    "Primary-ball SOCP": [
+     16.393,
+     0.942,
+     14.731
+    ],
+    "P-MMSE [6]": [
+     28.681,
+     1.134,
+     27.591
+    ],
+    "LP-MMSE [6]": [
+     23.374,
+     2.079,
+     22.324
+    ],
+    "INCM reconstruction": [
+     14.482,
+     1.797,
+     12.702
+    ],
+    "MR [6]": [
+     4.601,
+     4.527,
+     2.78
+    ]
+   },
+   "0.2": {
+    "D-CF-RAB": [
+     24.154,
+     1.875,
+     22.75
+    ],
+    "MR + CPU combiner": [
+     24.151,
+     1.885,
+     22.747
+    ],
+    "LP-MMSE + CPU combiner": [
+     23.133,
+     2.226,
+     21.396
+    ],
+    "Local MVDR + CPU combiner": [
+     20.142,
+     0.966,
+     18.821
+    ],
+    "CF-RAB (centralized)": [
+     16.011,
+     1.051,
+     14.295
+    ],
+    "Primary-ball SOCP": [
+     16.024,
+     1.049,
+     14.312
+    ],
+    "P-MMSE [6]": [
+     25.921,
+     1.633,
+     24.368
+    ],
+    "LP-MMSE [6]": [
+     19.981,
+     2.735,
+     18.567
+    ],
+    "INCM reconstruction": [
+     14.167,
+     1.765,
+     12.264
+    ],
+    "MR [6]": [
+     4.602,
+     4.526,
+     2.784
+    ]
+   },
+   "0.3": {
+    "D-CF-RAB": [
+     21.85,
+     2.033,
+     20.311
+    ],
+    "MR + CPU combiner": [
+     21.85,
+     2.048,
+     20.309
+    ],
+    "LP-MMSE + CPU combiner": [
+     20.579,
+     2.494,
+     18.587
+    ],
+    "Local MVDR + CPU combiner": [
+     17.851,
+     1.149,
+     16.283
+    ],
+    "CF-RAB (centralized)": [
+     15.354,
+     0.952,
+     13.628
+    ],
+    "Primary-ball SOCP": [
+     15.378,
+     0.947,
+     13.66
+    ],
+    "P-MMSE [6]": [
+     22.76,
+     2.188,
+     20.775
+    ],
+    "LP-MMSE [6]": [
+     16.525,
+     3.253,
+     14.888
+    ],
+    "INCM reconstruction": [
+     13.693,
+     1.789,
+     11.467
+    ],
+    "MR [6]": [
+     4.601,
+     4.521,
+     2.787
+    ]
+   },
+   "0.5": {
+    "D-CF-RAB": [
+     17.404,
+     2.317,
+     15.65
+    ],
+    "MR + CPU combiner": [
+     17.415,
+     2.335,
+     15.647
+    ],
+    "LP-MMSE + CPU combiner": [
+     15.945,
+     2.482,
+     13.673
+    ],
+    "Local MVDR + CPU combiner": [
+     13.519,
+     1.218,
+     11.544
+    ],
+    "CF-RAB (centralized)": [
+     13.39,
+     0.633,
+     11.728
+    ],
+    "Primary-ball SOCP": [
+     13.453,
+     0.621,
+     11.818
+    ],
+    "P-MMSE [6]": [
+     16.313,
+     3.169,
+     14.107
+    ],
+    "LP-MMSE [6]": [
+     11.127,
+     3.877,
+     9.492
+    ],
+    "INCM reconstruction": [
+     12.253,
+     1.787,
+     9.492
+    ],
+    "MR [6]": [
+     4.589,
+     4.492,
+     2.792
+    ]
+   }
+  }
+ },
+ "Figure 6.3": {
+  "x": "per-antenna SNR (dB)",
+  "points": {
+   "-5": {
+    "D-CF-RAB": [
+     12.928,
+     0.595,
+     11.982
+    ],
+    "MR + CPU combiner": [
+     12.92,
+     0.599,
+     11.971
+    ],
+    "LP-MMSE + CPU combiner": [
+     12.746,
+     0.806,
+     11.807
+    ],
+    "Local MVDR + CPU combiner": [
+     12.129,
+     0.303,
+     11.36
+    ],
+    "CF-RAB (centralized)": [
+     10.273,
+     0.689,
+     9.392
+    ],
+    "Primary-ball SOCP": [
+     10.379,
+     0.671,
+     9.511
+    ],
+    "P-MMSE [6]": [
+     15.037,
+     0.264,
+     14.363
+    ],
+    "LP-MMSE [6]": [
+     10.626,
+     1.323,
+     9.715
+    ],
+    "INCM reconstruction": [
+     8.876,
+     0.563,
+     7.883
+    ]
+   },
+   "0": {
+    "D-CF-RAB": [
+     17.644,
+     0.598,
+     16.644
+    ],
+    "MR + CPU combiner": [
+     17.636,
+     0.602,
+     16.628
+    ],
+    "LP-MMSE + CPU combiner": [
+     17.213,
+     0.833,
+     16.209
+    ],
+    "Local MVDR + CPU combiner": [
+     15.571,
+     0.397,
+     14.823
+    ],
+    "CF-RAB (centralized)": [
+     13.501,
+     1.022,
+     12.298
+    ],
+    "Primary-ball SOCP": [
+     13.541,
+     1.016,
+     12.342
+    ],
+    "P-MMSE [6]": [
+     19.917,
+     0.281,
+     19.235
+    ],
+    "LP-MMSE [6]": [
+     15.131,
+     1.123,
+     14.213
+    ],
+    "INCM reconstruction": [
+     11.639,
+     1.112,
+     10.431
+    ]
+   },
+   "5": {
+    "D-CF-RAB": [
+     22.299,
+     0.64,
+     21.249
+    ],
+    "MR + CPU combiner": [
+     22.292,
+     0.644,
+     21.232
+    ],
+    "LP-MMSE + CPU combiner": [
+     21.785,
+     0.811,
+     20.806
+    ],
+    "Local MVDR + CPU combiner": [
+     19.039,
+     0.772,
+     18.234
+    ],
+    "CF-RAB (centralized)": [
+     15.796,
+     1.404,
+     14.267
+    ],
+    "Primary-ball SOCP": [
+     15.81,
+     1.401,
+     14.282
+    ],
+    "P-MMSE [6]": [
+     24.611,
+     0.324,
+     23.909
+    ],
+    "LP-MMSE [6]": [
+     19.749,
+     0.92,
+     18.853
+    ],
+    "INCM reconstruction": [
+     13.489,
+     1.659,
+     12.014
+    ]
+   },
+   "10": {
+    "D-CF-RAB": [
+     26.544,
+     0.753,
+     25.416
+    ],
+    "MR + CPU combiner": [
+     26.539,
+     0.757,
+     25.4
+    ],
+    "LP-MMSE + CPU combiner": [
+     26.022,
+     0.83,
+     25.047
+    ],
+    "Local MVDR + CPU combiner": [
+     22.554,
+     0.914,
+     21.598
+    ],
+    "CF-RAB (centralized)": [
+     17.09,
+     1.7,
+     15.32
+    ],
+    "Primary-ball SOCP": [
+     17.094,
+     1.699,
+     15.325
+    ],
+    "P-MMSE [6]": [
+     28.823,
+     0.434,
+     28.048
+    ],
+    "LP-MMSE [6]": [
+     23.97,
+     0.866,
+     23.063
+    ],
+    "INCM reconstruction": [
+     14.376,
+     1.83,
+     12.471
+    ]
+   },
+   "15": {
+    "D-CF-RAB": [
+     29.923,
+     0.947,
+     28.682
+    ],
+    "MR + CPU combiner": [
+     29.921,
+     0.952,
+     28.668
+    ],
+    "LP-MMSE + CPU combiner": [
+     29.374,
+     0.921,
+     28.249
+    ],
+    "Local MVDR + CPU combiner": [
+     25.508,
+     0.868,
+     24.285
+    ],
+    "CF-RAB (centralized)": [
+     17.678,
+     1.872,
+     15.778
+    ],
+    "Primary-ball SOCP": [
+     17.68,
+     1.872,
+     15.779
+    ],
+    "P-MMSE [6]": [
+     32.134,
+     0.629,
+     31.112
+    ],
+    "LP-MMSE [6]": [
+     27.315,
+     0.999,
+     26.382
+    ],
+    "INCM reconstruction": [
+     14.637,
+     1.764,
+     12.511
+    ]
+   },
+   "20": {
+    "D-CF-RAB": [
+     32.152,
+     1.151,
+     30.659
+    ],
+    "MR + CPU combiner": [
+     32.154,
+     1.157,
+     30.656
+    ],
+    "LP-MMSE + CPU combiner": [
+     31.515,
+     1.056,
+     30.145
+    ],
+    "Local MVDR + CPU combiner": [
+     27.488,
+     0.729,
+     25.891
+    ],
+    "CF-RAB (centralized)": [
+     17.903,
+     1.952,
+     15.946
+    ],
+    "Primary-ball SOCP": [
+     17.903,
+     1.951,
+     15.947
+    ],
+    "P-MMSE [6]": [
+     34.288,
+     0.852,
+     33.024
+    ],
+    "LP-MMSE [6]": [
+     29.499,
+     1.236,
+     28.432
+    ],
+    "INCM reconstruction": [
+     14.61,
+     1.682,
+     12.45
+    ]
+   }
+  }
+ },
+ "Figure 6.4": {
+  "x": "CSI delay tau (snapshots)",
+  "points": {
+   "0": {
+    "D-CF-RAB": [
+     27.212,
+     0.996,
+     25.639
+    ],
+    "MR + CPU combiner": [
+     27.209,
+     1.0,
+     25.634
+    ],
+    "LP-MMSE + CPU combiner": [
+     26.259,
+     1.218,
+     24.701
+    ],
+    "Local MVDR + CPU combiner": [
+     22.08,
+     0.6,
+     21.211
+    ],
+    "CF-RAB (centralized)": [
+     17.526,
+     1.611,
+     16.182
+    ],
+    "Primary-ball SOCP": [
+     17.531,
+     1.61,
+     16.187
+    ],
+    "P-MMSE [6]": [
+     29.202,
+     0.696,
+     28.095
+    ],
+    "LP-MMSE [6]": [
+     24.131,
+     1.195,
+     22.625
+    ],
+    "INCM reconstruction": [
+     13.11,
+     2.131,
+     8.699
+    ]
+   },
+   "1": {
+    "D-CF-RAB": [
+     26.352,
+     1.039,
+     24.798
+    ],
+    "MR + CPU combiner": [
+     26.35,
+     1.043,
+     24.793
+    ],
+    "LP-MMSE + CPU combiner": [
+     25.376,
+     1.283,
+     23.728
+    ],
+    "Local MVDR + CPU combiner": [
+     21.055,
+     0.745,
+     20.49
+    ],
+    "CF-RAB (centralized)": [
+     17.36,
+     1.549,
+     15.914
+    ],
+    "Primary-ball SOCP": [
+     17.365,
+     1.547,
+     15.92
+    ],
+    "P-MMSE [6]": [
+     28.336,
+     0.709,
+     27.149
+    ],
+    "LP-MMSE [6]": [
+     23.347,
+     1.096,
+     21.671
+    ],
+    "INCM reconstruction": [
+     13.123,
+     2.243,
+     8.698
+    ]
+   },
+   "4": {
+    "D-CF-RAB": [
+     24.402,
+     1.379,
+     22.942
+    ],
+    "MR + CPU combiner": [
+     24.405,
+     1.38,
+     22.942
+    ],
+    "LP-MMSE + CPU combiner": [
+     23.577,
+     1.201,
+     22.118
+    ],
+    "Local MVDR + CPU combiner": [
+     19.003,
+     0.67,
+     17.854
+    ],
+    "CF-RAB (centralized)": [
+     16.496,
+     1.384,
+     15.051
+    ],
+    "Primary-ball SOCP": [
+     16.502,
+     1.382,
+     15.059
+    ],
+    "P-MMSE [6]": [
+     26.493,
+     0.582,
+     25.582
+    ],
+    "LP-MMSE [6]": [
+     21.713,
+     0.877,
+     20.386
+    ],
+    "INCM reconstruction": [
+     12.668,
+     2.389,
+     8.202
+    ]
+   },
+   "16": {
+    "D-CF-RAB": [
+     20.563,
+     1.177,
+     18.679
+    ],
+    "MR + CPU combiner": [
+     20.575,
+     1.179,
+     18.68
+    ],
+    "LP-MMSE + CPU combiner": [
+     19.123,
+     1.759,
+     17.249
+    ],
+    "Local MVDR + CPU combiner": [
+     13.153,
+     1.25,
+     11.912
+    ],
+    "CF-RAB (centralized)": [
+     13.185,
+     1.459,
+     11.458
+    ],
+    "Primary-ball SOCP": [
+     13.202,
+     1.452,
+     11.476
+    ],
+    "P-MMSE [6]": [
+     22.482,
+     0.875,
+     20.988
+    ],
+    "LP-MMSE [6]": [
+     16.973,
+     1.602,
+     14.91
+    ],
+    "INCM reconstruction": [
+     11.019,
+     2.066,
+     6.646
+    ]
+   },
+   "64": {
+    "D-CF-RAB": [
+     14.067,
+     2.078,
+     11.729
+    ],
+    "MR + CPU combiner": [
+     14.109,
+     2.063,
+     11.79
+    ],
+    "LP-MMSE + CPU combiner": [
+     10.436,
+     3.345,
+     7.031
+    ],
+    "Local MVDR + CPU combiner": [
+     -4.148,
+     3.334,
+     -6.885
+    ],
+    "CF-RAB (centralized)": [
+     -4.86,
+     2.332,
+     -7.438
+    ],
+    "Primary-ball SOCP": [
+     -4.869,
+     2.349,
+     -7.448
+    ],
+    "P-MMSE [6]": [
+     13.185,
+     2.503,
+     9.936
+    ],
+    "LP-MMSE [6]": [
+     7.239,
+     3.009,
+     3.459
+    ],
+    "INCM reconstruction": [
+     5.048,
+     3.726,
+     -0.254
+    ]
+   }
+  }
+ },
+ "Figure 6.5": {
+  "x": "per-AP CSI uncertainty profile",
+  "points": {
+   "uniform": {
+    "D-CF-RAB": [
+     25.654,
+     1.013,
+     24.021
+    ],
+    "MR + CPU combiner": [
+     25.646,
+     1.013,
+     24.008
+    ],
+    "LP-MMSE + CPU combiner": [
+     25.309,
+     1.1,
+     23.887
+    ],
+    "Local MVDR + CPU combiner": [
+     22.458,
+     0.575,
+     21.702
+    ],
+    "CF-RAB (centralized)": [
+     16.385,
+     1.12,
+     14.589
+    ],
+    "Primary-ball SOCP": [
+     16.391,
+     1.12,
+     14.597
+    ],
+    "P-MMSE [6]": [
+     28.35,
+     0.587,
+     27.338
+    ],
+    "LP-MMSE [6]": [
+     23.27,
+     0.756,
+     21.72
+    ],
+    "INCM reconstruction": [
+     14.594,
+     0.985,
+     12.771
+    ]
+   },
+   "tiered": {
+    "D-CF-RAB": [
+     24.613,
+     0.83,
+     22.655
+    ],
+    "MR + CPU combiner": [
+     24.604,
+     0.821,
+     22.63
+    ],
+    "LP-MMSE + CPU combiner": [
+     24.672,
+     1.308,
+     23.327
+    ],
+    "Local MVDR + CPU combiner": [
+     21.366,
+     1.767,
+     20.416
+    ],
+    "CF-RAB (centralized)": [
+     17.193,
+     0.937,
+     16.232
+    ],
+    "Primary-ball SOCP": [
+     17.198,
+     0.936,
+     16.238
+    ],
+    "P-MMSE [6]": [
+     28.424,
+     0.695,
+     27.465
+    ],
+    "LP-MMSE [6]": [
+     22.259,
+     1.279,
+     20.967
+    ],
+    "INCM reconstruction": [
+     14.251,
+     2.12,
+     12.421
+    ]
+   }
+  }
+ },
+ "Figure 6.6": {
+  "time per weight update (ms, this machine)": {
+   "4": {
+    "D-CF-RAB": 0.7237,
+    "CF-RAB (centralized)": 0.149,
+    "Primary-ball SOCP": 6.5365,
+    "P-MMSE [6]": 0.1027,
+    "MR + CPU combiner": 0.0662
+   },
+   "8": {
+    "D-CF-RAB": 1.57,
+    "CF-RAB (centralized)": 0.2635,
+    "Primary-ball SOCP": 11.9608,
+    "P-MMSE [6]": 0.289,
+    "MR + CPU combiner": 0.1081
+   },
+   "16": {
+    "D-CF-RAB": 3.1706,
+    "CF-RAB (centralized)": 0.7244,
+    "Primary-ball SOCP": 32.3512,
+    "P-MMSE [6]": 0.8713,
+    "MR + CPU combiner": 0.1915
+   }
+  },
+  "weight updates timed": {
+   "4": {
+    "D-CF-RAB": 600,
+    "CF-RAB (centralized)": 100,
+    "Primary-ball SOCP": 100,
+    "P-MMSE [6]": 100,
+    "MR + CPU combiner": 100
+   },
+   "8": {
+    "D-CF-RAB": 600,
+    "CF-RAB (centralized)": 100,
+    "Primary-ball SOCP": 100,
+    "P-MMSE [6]": 100,
+    "MR + CPU combiner": 100
+   },
+   "16": {
+    "D-CF-RAB": 600,
+    "CF-RAB (centralized)": 100,
+    "Primary-ball SOCP": 100,
+    "P-MMSE [6]": 100,
+    "MR + CPU combiner": 100
+   }
+  },
+  "listed bytes per user update": {
+   "4": {
+    "D-CF-RAB": 320.0,
+    "CF-RAB (centralized)": 1088.0,
+    "P-MMSE [6]": 512.0
+   },
+   "8": {
+    "D-CF-RAB": 640.0,
+    "CF-RAB (centralized)": 2176.0,
+    "P-MMSE [6]": 1024.0
+   },
+   "16": {
+    "D-CF-RAB": 1280.0,
+    "CF-RAB (centralized)": 4352.0,
+    "P-MMSE [6]": 2048.0
+   }
+  }
+ },
+ "Figure 6.7": {
+  "x": "trace length (snapshots)",
+  "points": {
+   "5": {
+    "D-CF-RAB": [
+     12.175,
+     2.004,
+     10.312
+    ],
+    "MR + CPU combiner": [
+     12.168,
+     2.0,
+     10.316
+    ],
+    "LP-MMSE + CPU combiner": [
+     10.336,
+     5.257,
+     7.518
+    ],
+    "Local MVDR + CPU combiner": [
+     8.686,
+     4.708,
+     6.037
+    ],
+    "CF-RAB (centralized)": [
+     2.703,
+     0.339,
+     2.383
+    ],
+    "Primary-ball SOCP": [
+     8.319,
+     1.204,
+     7.291
+    ],
+    "P-MMSE [6]": [
+     14.09,
+     2.793,
+     12.351
+    ],
+    "LP-MMSE [6]": [
+     7.018,
+     5.537,
+     3.869
+    ],
+    "INCM reconstruction": [
+     3.306,
+     4.185,
+     -0.17
+    ]
+   },
+   "10": {
+    "D-CF-RAB": [
+     12.177,
+     2.156,
+     10.382
+    ],
+    "MR + CPU combiner": [
+     12.17,
+     2.152,
+     10.385
+    ],
+    "LP-MMSE + CPU combiner": [
+     10.909,
+     4.37,
+     8.502
+    ],
+    "Local MVDR + CPU combiner": [
+     9.105,
+     3.085,
+     7.268
+    ],
+    "CF-RAB (centralized)": [
+     5.317,
+     0.293,
+     4.933
+    ],
+    "Primary-ball SOCP": [
+     7.104,
+     0.509,
+     6.631
+    ],
+    "P-MMSE [6]": [
+     14.535,
+     2.487,
+     12.935
+    ],
+    "LP-MMSE [6]": [
+     8.398,
+     4.267,
+     5.972
+    ],
+    "INCM reconstruction": [
+     5.022,
+     3.208,
+     2.179
+    ]
+   },
+   "20": {
+    "D-CF-RAB": [
+     12.314,
+     2.056,
+     10.645
+    ],
+    "MR + CPU combiner": [
+     12.307,
+     2.051,
+     10.645
+    ],
+    "LP-MMSE + CPU combiner": [
+     11.756,
+     3.467,
+     9.733
+    ],
+    "Local MVDR + CPU combiner": [
+     9.915,
+     1.816,
+     8.764
+    ],
+    "CF-RAB (centralized)": [
+     7.362,
+     0.591,
+     6.563
+    ],
+    "Primary-ball SOCP": [
+     7.921,
+     0.461,
+     7.241
+    ],
+    "P-MMSE [6]": [
+     15.144,
+     2.032,
+     13.771
+    ],
+    "LP-MMSE [6]": [
+     9.851,
+     3.167,
+     7.557
+    ],
+    "INCM reconstruction": [
+     6.401,
+     2.418,
+     3.814
+    ]
+   },
+   "40": {
+    "D-CF-RAB": [
+     12.646,
+     2.129,
+     10.802
+    ],
+    "MR + CPU combiner": [
+     12.636,
+     2.122,
+     10.802
+    ],
+    "LP-MMSE + CPU combiner": [
+     13.138,
+     2.473,
+     11.579
+    ],
+    "Local MVDR + CPU combiner": [
+     11.123,
+     1.087,
+     10.19
+    ],
+    "CF-RAB (centralized)": [
+     9.682,
+     0.955,
+     8.426
+    ],
+    "Primary-ball SOCP": [
+     9.85,
+     0.902,
+     8.618
+    ],
+    "P-MMSE [6]": [
+     15.961,
+     1.599,
+     14.963
+    ],
+    "LP-MMSE [6]": [
+     11.632,
+     2.294,
+     10.025
+    ],
+    "INCM reconstruction": [
+     7.577,
+     2.149,
+     5.486
+    ]
+   },
+   "80": {
+    "D-CF-RAB": [
+     13.457,
+     1.893,
+     11.598
+    ],
+    "MR + CPU combiner": [
+     13.447,
+     1.89,
+     11.589
+    ],
+    "LP-MMSE + CPU combiner": [
+     14.44,
+     1.514,
+     13.351
+    ],
+    "Local MVDR + CPU combiner": [
+     12.402,
+     0.842,
+     11.383
+    ],
+    "CF-RAB (centralized)": [
+     11.205,
+     0.924,
+     10.132
+    ],
+    "Primary-ball SOCP": [
+     11.259,
+     0.913,
+     10.2
+    ],
+    "P-MMSE [6]": [
+     16.752,
+     1.074,
+     15.864
+    ],
+    "LP-MMSE [6]": [
+     13.1,
+     1.607,
+     12.004
+    ],
+    "INCM reconstruction": [
+     8.26,
+     1.849,
+     6.445
+    ]
+   }
+  }
+ },
+ "Figure 6.8": {
+  "objective excess (%)": {
+   "0.005": 1.772,
+   "0.01": 1.792,
+   "0.02": 1.832,
+   "0.05": 1.955,
+   "0.1": 2.196,
+   "0.2": 2.811,
+   "0.3": 3.602,
+   "0.5": 6.6
+  },
+  "|CF-RAB minus primary-ball SOCP| (dB)": {
+   "0.005": 0.00023,
+   "0.01": 0.00047,
+   "0.02": 0.00096,
+   "0.03": 0.00148,
+   "0.05": 0.00256,
+   "0.07": 0.00373,
+   "0.1": 0.00565,
+   "0.2": 0.01357,
+   "0.3": 0.02438,
+   "0.5": 0.06258
+  }
+ },
+ "Figure 6.9": {
+  "rows": [
+   {
+    "eps": 0.05,
+    "soi_dB": 0,
+    "MVDR": -5.396,
+    "CF-RAB": -5.396,
+    "centralized_sdp": 20.716
+   },
+   {
+    "eps": 0.05,
+    "soi_dB": 10,
+    "MVDR": -15.387,
+    "CF-RAB": 4.386,
+    "centralized_sdp": 24.82
+   },
+   {
+    "eps": 0.05,
+    "soi_dB": 20,
+    "MVDR": -25.377,
+    "CF-RAB": 21.044,
+    "centralized_sdp": 25.657
+   },
+   {
+    "eps": 0.05,
+    "soi_dB": 30,
+    "MVDR": -35.291,
+    "CF-RAB": 31.035,
+    "centralized_sdp": 27.819
+   },
+   {
+    "eps": 0.1,
+    "soi_dB": 0,
+    "MVDR": -11.459,
+    "CF-RAB": -6.557,
+    "centralized_sdp": 19.384
+   },
+   {
+    "eps": 0.1,
+    "soi_dB": 10,
+    "MVDR": -21.45,
+    "CF-RAB": 11.443,
+    "centralized_sdp": 22.419
+   },
+   {
+    "eps": 0.1,
+    "soi_dB": 20,
+    "MVDR": -31.441,
+    "CF-RAB": 21.422,
+    "centralized_sdp": 21.987
+   },
+   {
+    "eps": 0.1,
+    "soi_dB": 30,
+    "MVDR": -41.354,
+    "CF-RAB": 31.42,
+    "centralized_sdp": 25.839
+   },
+   {
+    "eps": 0.2,
+    "soi_dB": 0,
+    "MVDR": -17.646,
+    "CF-RAB": 1.598,
+    "centralized_sdp": 18.713
+   },
+   {
+    "eps": 0.2,
+    "soi_dB": 10,
+    "MVDR": -27.638,
+    "CF-RAB": 11.595,
+    "centralized_sdp": 18.08
+   },
+   {
+    "eps": 0.2,
+    "soi_dB": 20,
+    "MVDR": -37.628,
+    "CF-RAB": 21.594,
+    "centralized_sdp": 18.523
+   },
+   {
+    "eps": 0.2,
+    "soi_dB": 30,
+    "MVDR": -47.539,
+    "CF-RAB": 31.594,
+    "centralized_sdp": 25.263
+   },
+   {
+    "eps": 0.3,
+    "soi_dB": 0,
+    "MVDR": -21.432,
+    "CF-RAB": 1.617,
+    "centralized_sdp": 17.357
+   },
+   {
+    "eps": 0.3,
+    "soi_dB": 10,
+    "MVDR": -31.424,
+    "CF-RAB": 11.616,
+    "centralized_sdp": 14.251
+   },
+   {
+    "eps": 0.3,
+    "soi_dB": 20,
+    "MVDR": -41.414,
+    "CF-RAB": 21.616,
+    "centralized_sdp": 17.463
+   },
+   {
+    "eps": 0.3,
+    "soi_dB": 30,
+    "MVDR": -51.321,
+    "CF-RAB": 31.616,
+    "centralized_sdp": 25.772
+   }
+  ]
+ },
+ "Figure 6.10": {
+  "rescaling threshold, joint (LM = 128)": 0.5353,
+  "rescaling threshold, per-AP (M = 8)": 0.164,
+  "bound levels": [
+   0.02,
+   0.05,
+   0.1,
+   0.15,
+   0.2,
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   0.95
+  ],
+  "departure, per-AP": [
+   0.0,
+   0.0,
+   0.04629,
+   0.09226,
+   0.1844,
+   0.29221,
+   0.45447,
+   0.48692,
+   0.51093,
+   0.53324,
+   0.55534,
+   0.62134,
+   0.69622
+  ],
+  "departure, joint": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.10459,
+   0.21635,
+   0.38717,
+   0.48243,
+   0.49131,
+   0.50226,
+   0.40747
+  ]
+ },
+ "Table6_2_load_dependent_bound": {
+  "header": [
+   "L",
+   "K",
+   "eps",
+   "c",
+   "D-CF-RAB",
+   "D-CF-RAB, c = 0.98",
+   "MR + CPU",
+   "MVDR + CPU, selected",
+   "LP-MMSE + CPU",
+   "P-MMSE",
+   "Gain over c = 0.98"
+  ],
+  "rows": [
+   [
+    4,
+    16,
+    "0.10",
+    "0.4",
+    "3.51",
+    "0.78",
+    "0.71",
+    "3.64",
+    "6.46",
+    "15.55",
+    "2.74"
+   ],
+   [
+    4,
+    16,
+    "0.50",
+    "0.6",
+    "0.71",
+    "−0.63",
+    "−0.70",
+    "0.80",
+    "1.01",
+    "3.38",
+    "1.34"
+   ],
+   [
+    4,
+    4,
+    "0.10",
+    "0.6",
+    "15.79",
+    "15.00",
+    "14.98",
+    "15.65",
+    "19.50",
+    "21.81",
+    "0.79"
+   ],
+   [
+    16,
+    4,
+    "0.10",
+    "0.8",
+    "26.70",
+    "26.66",
+    "26.66",
+    "26.67",
+    "26.65",
+    "28.90",
+    "0.04"
+   ],
+   [
+    16,
+    4,
+    "0.50",
+    "0.999",
+    "17.46",
+    "17.45",
+    "17.46",
+    "17.47",
+    "17.54",
+    "16.72",
+    "0.01"
+   ],
+   [
+    16,
+    4,
+    "0.50",
+    "0.98",
+    "20.41",
+    "20.41",
+    "20.48",
+    "20.96",
+    "20.92",
+    "20.29",
+    "0.00"
+   ]
+  ]
+ },
+ "Table6_3_sample_covariance": {
+  "header": [
+   "L",
+   "K",
+   "eps",
+   "c",
+   "D-CF-RAB",
+   "MVDR + CPU, selected",
+   "MVDR + CPU, 1e-6",
+   "D-CF-RAB minus MVDR + CPU, selected (95% interval)"
+  ],
+  "rows": [
+   [
+    4,
+    16,
+    "0.10",
+    "0.4",
+    "3.50",
+    "3.62",
+    "1.57",
+    "−0.120 (−0.236, −0.004)"
+   ],
+   [
+    4,
+    16,
+    "0.50",
+    "0.6",
+    "0.70",
+    "0.79",
+    "−2.33",
+    "−0.083 (−0.129, −0.037)"
+   ],
+   [
+    4,
+    4,
+    "0.10",
+    "0.6",
+    "15.78",
+    "15.64",
+    "13.09",
+    "0.134 (−0.196, 0.465)"
+   ],
+   [
+    16,
+    4,
+    "0.10",
+    "0.9",
+    "26.69",
+    "26.67",
+    "22.47",
+    "0.028 (0.010, 0.046)"
+   ],
+   [
+    16,
+    4,
+    "0.50",
+    "0.999",
+    "17.46",
+    "17.47",
+    "13.49",
+    "−0.004 (−0.008, −0.001)"
+   ],
+   [
+    16,
+    4,
+    "0.50",
+    "0.98",
+    "20.41",
+    "20.96",
+    "14.20",
+    "−0.549 (−0.782, −0.317)"
+   ]
+  ]
+ },
+ "Table6_4_error_laws": {
+  "header": [
+   "Error law",
+   "D-CF-RAB, eps = 0.10",
+   "D-CF-RAB minus P-MMSE, eps = 0.10",
+   "D-CF-RAB, eps = 0.50",
+   "D-CF-RAB minus MR + CPU, eps = 0.50",
+   "D-CF-RAB minus P-MMSE, eps = 0.50",
+   "Failed scored checks, eps = 0.50",
+   "D-CF-RAB minus P-MMSE, path loss, eps = 0.50"
+  ],
+  "rows": [
+   [
+    "Boundary",
+    "26.04",
+    "−2.55 (−2.77, −2.33)",
+    "16.73",
+    "−0.021 (−0.033, −0.008)",
+    "0.87 (0.54, 1.20)",
+    "6 of 720",
+    "3.48 (2.12, 4.83)"
+   ],
+   [
+    "Interior radial law",
+    "26.16",
+    "−2.56 (−2.79, −2.34)",
+    "17.39",
+    "−0.017 (−0.029, −0.005)",
+    "0.72 (0.39, 1.05)",
+    "6 of 720",
+    "3.41 (2.06, 4.77)"
+   ],
+   [
+    "Radius-uniform",
+    "26.82",
+    "−2.61 (−2.83, −2.39)",
+    "21.51",
+    "−0.003 (−0.012, 0.006)",
+    "−0.72 (−1.01, −0.43)",
+    "21 of 720",
+    "3.41 (2.02, 4.80)"
+   ],
+   [
+    "Gaussian",
+    "26.07",
+    "−2.56 (−2.78, −2.34)",
+    "18.09",
+    "−0.013 (−0.025, −0.001)",
+    "0.66 (0.32, 1.00)",
+    "11 of 720",
+    "3.45 (2.09, 4.80)"
+   ]
+  ]
+ },
+ "Table6_5_external_interferers": {
+  "header": [
+   "J, INR",
+   "Selected c",
+   "D-CF-RAB",
+   "MVDR + CPU",
+   "MR + adaptive CPU",
+   "MR + CPU",
+   "LP-MMSE + CPU",
+   "P-MMSE",
+   "CF-RAB"
+  ],
+  "rows": [
+   [
+    "2, 10 dB",
+    "0.3",
+    "16.61",
+    "16.72",
+    "10.85",
+    "12.15",
+    "12.17",
+    "11.66",
+    "12.33"
+   ],
+   [
+    "2, 20 dB",
+    "0.3",
+    "8.56",
+    "9.51",
+    "6.37",
+    "2.38",
+    "2.41",
+    "1.79",
+    "7.21"
+   ],
+   [
+    "6, 10 dB",
+    "0.2",
+    "10.96",
+    "11.71",
+    "7.95",
+    "6.61",
+    "7.21",
+    "6.05",
+    "9.69"
+   ],
+   [
+    "6, 20 dB",
+    "0.3",
+    "1.64",
+    "2.98",
+    "2.36",
+    "−3.34",
+    "−2.72",
+    "−3.92",
+    "2.60"
+   ]
+  ]
+ },
+ "Table6_6_observations": {
+  "header": [
+   "Operating regime",
+   "Observation in the tested range"
+  ],
+  "rows": [
+   [
+    "16 APs, four users, c = 0.98",
+    "D-CF-RAB within 0.03 dB of MR + CPU combining"
+   ],
+   [
+    "Four APs, four users, nominal uncertainty",
+    "At c = 0.98, LP-MMSE + CPU combining is 4.2 dB higher. Load-dependent bound selection gains up to 2.7 dB in the four-AP configurations of Table 6.2 and up to 2.8 dB over MR + CPU combining."
+   ],
+   [
+    "Nominal uncertainty, centralized processing",
+    "P-MMSE 2.5 dB above D-CF-RAB"
+   ],
+   [
+    "Largest tested radius (eps = 0.50)",
+    "D-CF-RAB 0.9 dB above P-MMSE for boundary errors, 0.7 dB below for radius-uniform errors; with path loss, above nominal but not tuned P-MMSE"
+   ],
+   [
+    "Covariance-based local processing",
+    "The bound acts as a loading rule: 3.2 to 4.0 dB above local MVDR with 1e-6 loading, within 0.14 dB of a training-selected loading (0.55 dB below it with path loss)"
+   ],
+   [
+    "Interferers without channel estimates",
+    "Covariance-based local processing 3.8 to 6.8 dB above the estimate-based combiners; tuned local MVDR 0.1 to 1.4 dB above D-CF-RAB"
+   ],
+   [
+    "Strong desired signal in the covariance with mismatch",
+    "Worst-case robust processing avoids self-cancellation (Fig. 6.9)"
+   ]
+  ]
+ },
+ "Text": {
+  "bound level selected on training realizations (Section 6.7.1)": 0.98,
+  "training SINR per bound level (dB)": {
+   "0.3": 18.564,
+   "0.5": 20.523,
+   "0.7": 21.386,
+   "0.8": 21.624,
+   "0.9": 21.747,
+   "0.95": 21.766,
+   "0.98": 21.767
+  },
+  "scalar-root solver check (Section 6.3.6)": {
+   "problems": 36,
+   "max relative objective difference": 9.131009334028527e-10,
+   "max constraint residual": 1.4210854715202004e-14,
+   "speed-up over a loading-grid search, n = 8": 18.6
+  },
+  "paired comparisons, 20 realizations (D-CF-RAB minus method, dB, 95% interval)": {
+   "norm_L16_e010": {
+    "MR+W": [
+     0.008,
+     0.003,
+     0.013
+    ],
+    "LP-MMSE+W": [
+     0.605,
+     0.321,
+     0.89
+    ],
+    "LMVDR+W": [
+     3.51,
+     2.965,
+     4.055
+    ],
+    "LP-MMSE": [
+     2.783,
+     2.415,
+     3.15
+    ],
+    "P-MMSE": [
+     -2.55,
+     -2.772,
+     -2.328
+    ]
+   },
+   "norm_L16_e050": {
+    "MR+W": [
+     -0.021,
+     -0.033,
+     -0.008
+    ],
+    "LP-MMSE+W": [
+     1.528,
+     1.229,
+     1.827
+    ],
+    "LMVDR+W": [
+     3.179,
+     2.497,
+     3.86
+    ],
+    "LP-MMSE": [
+     5.543,
+     5.141,
+     5.945
+    ],
+    "P-MMSE": [
+     0.871,
+     0.541,
+     1.201
+    ]
+   },
+   "norm_L8_e010": {
+    "MR+W": [
+     0.009,
+     0.002,
+     0.015
+    ],
+    "LP-MMSE+W": [
+     -0.397,
+     -0.794,
+     -0.0
+    ],
+    "LMVDR+W": [
+     3.901,
+     3.282,
+     4.52
+    ],
+    "LP-MMSE": [
+     1.482,
+     1.021,
+     1.943
+    ],
+    "P-MMSE": [
+     -3.103,
+     -3.43,
+     -2.776
+    ]
+   },
+   "norm_L4_e010": {
+    "MR+W": [
+     0.018,
+     -0.003,
+     0.04
+    ],
+    "LP-MMSE+W": [
+     -4.17,
+     -5.06,
+     -3.279
+    ],
+    "LMVDR+W": [
+     2.792,
+     1.287,
+     4.298
+    ],
+    "LP-MMSE": [
+     -2.838,
+     -3.854,
+     -1.823
+    ],
+    "P-MMSE": [
+     -6.337,
+     -7.192,
+     -5.481
+    ]
+   },
+   "pl_L16_e010": {
+    "MR+W": [
+     -0.025,
+     -0.058,
+     0.008
+    ],
+    "LP-MMSE+W": [
+     0.595,
+     -0.048,
+     1.239
+    ],
+    "LMVDR+W": [
+     4.557,
+     3.82,
+     5.295
+    ],
+    "LP-MMSE": [
+     12.316,
+     10.167,
+     14.466
+    ],
+    "P-MMSE": [
+     -0.197,
+     -1.013,
+     0.62
+    ]
+   },
+   "pl_L16_e050": {
+    "MR+W": [
+     -0.033,
+     -0.083,
+     0.017
+    ],
+    "LP-MMSE+W": [
+     2.681,
+     1.654,
+     3.708
+    ],
+    "LMVDR+W": [
+     5.874,
+     5.195,
+     6.553
+    ],
+    "LP-MMSE": [
+     12.26,
+     10.277,
+     14.243
+    ],
+    "P-MMSE": [
+     3.477,
+     2.124,
+     4.83
+    ]
+   }
+  },
+  "exact minus Algorithm 6.1 local stage (dB, 95% interval)": {
+   "eps0.1": [
+    0.133,
+    0.084,
+    0.182
+   ],
+   "eps0.5": [
+    0.267,
+    0.186,
+    0.348
+   ]
+  },
+  "joint conic audit, median excess of Algorithm 6.1 (%)": {
+   "0.01": 0.0,
+   "0.1": 0.018,
+   "0.5": 11.586
+  },
+  "joint conic audit, median effect of the extra balls (%)": {
+   "0.01": 0.0,
+   "0.1": 0.0,
+   "0.5": 0.109
+  },
+  "local conic audit": {
+   "solves": 80,
+   "objective ratio min/median/max": [
+    2.193,
+    4.191,
+    17.835
+   ],
+   "median direction difference (deg)": 16.499
+  },
+  "CF-RAB bound sweep, mean SINR (dB)": {
+   "declared": 16.387,
+   "0.5": 14.074,
+   "0.6": 10.501,
+   "0.7": 4.86
+  },
+  "cross-AP rescaling outcomes": {
+   "0.1": {
+    "scaled": 1200
+   },
+   "0.5": {
+    "scaled": 1188,
+    "violated": 12
+   }
+  },
+  "load-dependent bound selection (Section 6.7.12)": {
+   "heavy_e010": {
+    "selected": {
+     "c": 0.4,
+     "lp_scale": 0.001,
+     "p_scale": 1.0
+    },
+    "D-CF-RAB tuned minus MR + CPU": [
+     2.808,
+     2.472,
+     3.143
+    ],
+    "worst-user gain over MR + CPU": [
+     3.806,
+     3.285,
+     4.327
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE nominal": [
+     -14.779,
+     -14.971,
+     -14.586
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE tuned": [
+     -14.779,
+     -14.971,
+     -14.586
+    ]
+   },
+   "heavy_e050": {
+    "selected": {
+     "c": 0.6,
+     "lp_scale": 1.0,
+     "p_scale": 1.0
+    },
+    "D-CF-RAB tuned minus MR + CPU": [
+     1.402,
+     1.223,
+     1.582
+    ],
+    "worst-user gain over MR + CPU": [
+     2.027,
+     1.661,
+     2.393
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE nominal": [
+     -4.008,
+     -4.158,
+     -3.858
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE tuned": [
+     -4.008,
+     -4.158,
+     -3.858
+    ]
+   },
+   "small_e010": {
+    "selected": {
+     "c": 0.6,
+     "lp_scale": 0.001,
+     "p_scale": 0.3
+    },
+    "D-CF-RAB tuned minus MR + CPU": [
+     0.818,
+     0.116,
+     1.52
+    ],
+    "worst-user gain over MR + CPU": [
+     1.569,
+     0.5,
+     2.637
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE nominal": [
+     -6.804,
+     -7.654,
+     -5.955
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE tuned": [
+     -6.807,
+     -7.657,
+     -5.957
+    ]
+   },
+   "pl_e050": {
+    "selected": {
+     "c": 0.98,
+     "lp_scale": 10000.0,
+     "p_scale": 0.03
+    },
+    "D-CF-RAB tuned minus MR + CPU": [
+     -0.079,
+     -0.112,
+     -0.045
+    ],
+    "worst-user gain over MR + CPU": [
+     -0.138,
+     -0.25,
+     -0.026
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE nominal": [
+     3.262,
+     1.621,
+     4.902
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE tuned": [
+     0.112,
+     -0.459,
+     0.682
+    ]
+   },
+   "nom_e010": {
+    "selected": {
+     "c": 0.8,
+     "lp_scale": 10000.0,
+     "p_scale": 0.3
+    },
+    "D-CF-RAB tuned minus MR + CPU": [
+     0.048,
+     -0.004,
+     0.1
+    ],
+    "worst-user gain over MR + CPU": [
+     0.111,
+     0.028,
+     0.195
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE nominal": [
+     -2.233,
+     -2.461,
+     -2.004
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE tuned": [
+     -2.238,
+     -2.468,
+     -2.009
+    ]
+   },
+   "nom_e050": {
+    "selected": {
+     "c": 0.999,
+     "lp_scale": 10000.0,
+     "p_scale": 0.1
+    },
+    "D-CF-RAB tuned minus MR + CPU": [
+     -0.0,
+     -0.001,
+     0.0
+    ],
+    "worst-user gain over MR + CPU": [
+     -0.0,
+     -0.001,
+     0.0
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE nominal": [
+     0.863,
+     0.583,
+     1.143
+    ],
+    "D-CF-RAB (c = 0.98) minus P-MMSE tuned": [
+     0.738,
+     0.489,
+     0.987
+    ]
+   }
+  },
+  "bound selected per error law": {
+   "eps0.1|boundary": "0.8",
+   "eps0.1|interior": "0.8",
+   "eps0.1|radius": "0.8",
+   "eps0.1|gaussian": "0.8",
+   "eps0.5|boundary": "0.999",
+   "eps0.5|interior": "0.999",
+   "eps0.5|radius": "0.999",
+   "eps0.5|gaussian": "0.999"
+  },
+  "equal-mean tiers (Section 6.7.6)": {
+   "mean SINR (dB)": {
+    "D-CF-RAB": 25.493,
+    "MR + CPU combiner": 25.48,
+    "LP-MMSE + CPU combiner": 25.164,
+    "Local MVDR + CPU combiner": 21.897,
+    "CF-RAB (centralized)": 16.59,
+    "Primary-ball SOCP": 16.595,
+    "P-MMSE [6]": 28.697,
+    "LP-MMSE [6]": 22.664,
+    "INCM reconstruction": 14.105
+   },
+   "D-CF-RAB minus method (dB, 95% interval)": {
+    "MR + CPU combiner": [
+     0.013,
+     0.005,
+     0.021
+    ],
+    "LP-MMSE + CPU combiner": [
+     0.329,
+     -0.578,
+     1.236
+    ],
+    "Local MVDR + CPU combiner": [
+     3.596,
+     1.745,
+     5.446
+    ],
+    "CF-RAB (centralized)": [
+     8.904,
+     6.628,
+     11.179
+    ],
+    "Primary-ball SOCP": [
+     8.898,
+     6.624,
+     11.173
+    ],
+    "P-MMSE [6]": [
+     -3.204,
+     -4.083,
+     -2.324
+    ],
+    "LP-MMSE [6]": [
+     2.829,
+     2.044,
+     3.613
+    ],
+    "INCM reconstruction": [
+     11.388,
+     8.395,
+     14.382
+    ]
+   }
+  },
+  "joint-check audit (Section 6.7.9)": {
+   "0.1": {
+    "all_updates": {
+     "scaled": 1200
+    },
+    "scored_updates": {
+     "scaled": 180
+    },
+    "n_checked": 1200,
+    "analytic_worst_min": 0.9999999999999994,
+    "mc_min": 1.0971974841959689,
+    "worst_dir_min": 0.9999999999999993,
+    "mc_n": 300
+   },
+   "0.5": {
+    "all_updates": {
+     "scaled": 1188,
+     "violated": 12
+    },
+    "scored_updates": {
+     "scaled": 180
+    },
+    "n_checked": 1188,
+    "analytic_worst_min": 0.9999999999999858,
+    "mc_min": 1.9191928833426763,
+    "worst_dir_min": 0.9999999999999951,
+    "mc_n": 300
+   }
+  },
+  "CF-RAB continuous primary-ball check (Section 6.7.13)": {
+   "0.01": {
+    "n": 12,
+    "analytic_primary_min": 0.9999999999999999,
+    "mc_min": 1.0121282529295872,
+    "grid_min": 0.9999999999999994
+   },
+   "0.1": {
+    "n": 12,
+    "analytic_primary_min": 0.9999999999999999,
+    "mc_min": 1.137971599915204,
+    "grid_min": 0.9999999999999994
+   },
+   "0.5": {
+    "n": 12,
+    "analytic_primary_min": 0.9999999999999991,
+    "mc_min": 2.4819937725107692,
+    "grid_min": 0.9999999999999978
+   }
+  }
+ }
+}

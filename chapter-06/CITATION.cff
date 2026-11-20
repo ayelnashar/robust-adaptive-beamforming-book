@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the book chapter and the paper listed below."
+title: "Chapter 6: Distributed (Cell-Free) Massive MIMO (Python simulations)"
+version: 1.0.0
+date-released: 2026-11-20
+license: MIT
+authors:
+  - family-names: Elnashar
+    given-names: Ayman
+preferred-citation:
+  type: book
+  title: "Robust Adaptive Beamforming and Its Applications"
+  authors:
+    - family-names: Elnashar
+      given-names: Ayman
+  publisher:
+    name: "Wiley"
+  notes: "Forthcoming. Chapter 6, Distributed (Cell-Free) Massive MIMO."
+references:
+  - type: article
+    title: "Robust Adaptive Beamforming for Cell-Free Massive MIMO under Heterogeneous Per-AP Uncertainty"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+  - type: article
+    title: "Scalable cell-free massive MIMO systems"
+    authors:
+      - family-names: Björnson
+        given-names: Emil
+      - family-names: Sanguinetti
+        given-names: Luca
+    journal: "IEEE Transactions on Communications"
+    volume: 68
+    issue: 7
+    start: 4247
+    end: 4261
+    year: 2020
+    doi: 10.1109/TCOMM.2020.2987311
+  - type: book
+    title: "Simplified Robust Adaptive Detection and Beamforming for Wireless Communications"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    publisher:
+      name: "Wiley"
+    year: 2018
+    doi: 10.1002/9781118938218

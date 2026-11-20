@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ch6cfrab"
+version = "1.0.0"
+description = "Chapter 6 simulations: centralized and distributed worst-case robust combining (CF-RAB, D-CF-RAB) for cell-free massive MIMO under heterogeneous per-AP CSI uncertainty"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Ayman Elnashar"}]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "cvxpy>=1.4",
+    "clarabel>=0.6",
+    "scs>=3.2",
+    "threadpoolctl>=3.1",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter", "nbformat", "nbconvert"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["ch6cfrab"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
