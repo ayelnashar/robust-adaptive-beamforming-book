@@ -1,0 +1,49 @@
+{
+ "ula": {
+  "best": {
+   "INCM-GEV": "INCM-GEV s=3",
+   "INCM-GEV refined": "INCMr-GEV s=3",
+   "INCM-LCMV": "INCM-LCMV s=4.5",
+   "INCM-LCMV refined": "INCMr-LCMV s=4.5",
+   "INCM-MVDR": "INCM-MVDR s=4.5",
+   "INCM-MVDR refined": "INCMr-MVDR s=4.5",
+   "LCMV-K noise-floor-loaded": "LCMVnf g=300",
+   "LCMV-K trace-loaded": "LCMVtr g=1",
+   "LCMV-K-D": "LCMVKD g=0.1",
+   "LCMV-LW": "LCMV-LW",
+   "MPR-RAB": "MPR k=0.4",
+   "MPR-RAB equal targets": "MPR k=0.6 q=0",
+   "MPR-RAB no delay compensation": "MPRnoPred k=0.4",
+   "MPR-RAB no reconstruction": "MPRnoRec k=0.7",
+   "MPR-RAB power targets": "MPR k=0.2 q=1",
+   "MPR-RAB targets from the reconstruction": "MPRnoTS k=0.4",
+   "Oracle": "Oracle",
+   "Par-K-RCB": "ParRCB e=4"
+  },
+  "tie_db": 0.05
+ },
+ "upa": {
+  "best": {
+   "INCM-GEV": "INCM-GEV s=12",
+   "INCM-GEV refined": "INCMr-GEV s=9",
+   "INCM-LCMV": "INCM-LCMV s=12",
+   "INCM-LCMV refined": "INCMr-LCMV s=9",
+   "INCM-MVDR": "INCM-MVDR s=12",
+   "INCM-MVDR refined": "INCMr-MVDR s=9",
+   "LCMV-K noise-floor-loaded": "LCMVnf g=10000",
+   "LCMV-K trace-loaded": "LCMVtr g=10",
+   "LCMV-K-D": "LCMVKD g=1",
+   "LCMV-LW": "LCMV-LW",
+   "MPR-RAB": "MPR k=0.3",
+   "MPR-RAB equal targets": "MPR k=0.2 q=0",
+   "MPR-RAB no delay compensation": "MPRnoPred k=0.3",
+   "MPR-RAB no peak refinement": "MPRnoPeak k=0.1",
+   "MPR-RAB no reconstruction": "MPRnoRec k=0.7",
+   "MPR-RAB power targets": "MPR k=0.2 q=1",
+   "MPR-RAB targets from the reconstruction": "MPRnoTS k=0.3",
+   "Oracle": "Oracle",
+   "Par-K-RCB": "ParRCB e=25"
+  },
+  "tie_db": 0.05
+ }
+}

@@ -1,0 +1,79 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the book chapter and the papers listed below."
+title: "Chapter 5: Multi-Source Robust Beamforming with Subspace Tracking (Python simulations)"
+version: 1.0.0
+date-released: 2026-11-20
+license: MIT
+authors:
+  - family-names: Elnashar
+    given-names: Ayman
+preferred-citation:
+  type: book
+  title: "Robust Adaptive Beamforming and Its Applications"
+  authors:
+    - family-names: Elnashar
+      given-names: Ayman
+  publisher:
+    name: "Wiley"
+  notes: "Forthcoming. Chapter 5, Multi-Source Robust Beamforming with Subspace Tracking."
+references:
+  - type: article
+    title: "Multi-Primary Robust Adaptive Beamforming With Per-Cluster Gain Guarantees for Sparse Multipath Channels"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+  - type: article
+    title: "An active-set KKT method for structured second-order cone programs with shared norm coupling"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    status: submitted
+  - type: article
+    title: "Efficient implementation of robust adaptive beamforming based on worst-case performance optimisation"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    journal: "IET Signal Processing"
+    volume: 2
+    issue: 4
+    start: 381
+    end: 393
+    year: 2008
+    doi: 10.1049/iet-spr:20070162
+  - type: article
+    title: "Robust adaptive beamforming based on interference covariance matrix reconstruction and steering vector estimation"
+    authors:
+      - family-names: Gu
+        given-names: Yujie
+      - family-names: Leshem
+        given-names: Amir
+    journal: "IEEE Transactions on Signal Processing"
+    volume: 60
+    issue: 7
+    start: 3881
+    end: 3885
+    year: 2012
+  - type: article
+    title: "On robust Capon beamforming and diagonal loading"
+    authors:
+      - family-names: Li
+        given-names: Jian
+      - family-names: Stoica
+        given-names: Petre
+      - family-names: Wang
+        given-names: Zhisong
+    journal: "IEEE Transactions on Signal Processing"
+    volume: 51
+    issue: 7
+    start: 1702
+    end: 1715
+    year: 2003
+  - type: book
+    title: "Simplified Robust Adaptive Detection and Beamforming for Wireless Communications"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    publisher:
+      name: "Wiley"
+    year: 2018
+    doi: 10.1002/9781118938218

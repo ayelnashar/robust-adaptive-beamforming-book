@@ -27,7 +27,7 @@ The book develops robust adaptive array processing from first principles and car
 | Ch. | Title | Code |
 |---|---|---|
 | 4 | Robust Beamforming that Minimizes Bit-Error-Rate Directly | [chapter-04](chapter-04) |
-| 5 | Multi-Source Robust Beamforming with Subspace Tracking | coming soon |
+| 5 | Multi-Source Robust Beamforming with Subspace Tracking | [chapter-05](chapter-05) |
 | 6 | Distributed (Cell-Free) Massive MIMO | [chapter-06](chapter-06) |
 | 7 | Dual-Function Beamforming for Integrated Sensing and Communication | coming soon |
 | 8 | Wideband Robust Beamforming for Sub-Terahertz 6G Links | coming soon |
