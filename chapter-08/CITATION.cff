@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the book chapter and the paper listed below."
+title: "Chapter 8: Wideband Robust Beamforming for Sub-Terahertz 6G Links (Python simulations)"
+version: 1.0.0
+date-released: 2026-11-21
+license: MIT
+authors:
+  - family-names: Elnashar
+    given-names: Ayman
+preferred-citation:
+  type: book
+  title: "Robust Adaptive Beamforming and Its Applications"
+  authors:
+    - family-names: Elnashar
+      given-names: Ayman
+  publisher:
+    name: "Wiley"
+  notes: "Forthcoming. Chapter 8, Wideband Robust Beamforming for Sub-Terahertz 6G Links."
+references:
+  - type: article
+    title: "Multi-Constraint Worst-Case Beamforming for Wideband Sub-Terahertz Arrays: Robustness to Steering Mismatch at Massive Array Sizes"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+  - type: book
+    title: "Simplified Robust Adaptive Detection and Beamforming for Wireless Communications"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    publisher:
+      name: "Wiley"
+    year: 2018
+    doi: 10.1002/9781118938218

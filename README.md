@@ -30,7 +30,7 @@ The book develops robust adaptive array processing from first principles and car
 | 5 | Multi-Source Robust Beamforming with Subspace Tracking | [chapter-05](chapter-05) |
 | 6 | Distributed (Cell-Free) Massive MIMO | [chapter-06](chapter-06) |
 | 7 | Dual-Function Beamforming for Integrated Sensing and Communication | coming soon |
-| 8 | Wideband Robust Beamforming for Sub-Terahertz 6G Links | coming soon |
+| 8 | Wideband Robust Beamforming for Sub-Terahertz 6G Links | [chapter-08](chapter-08) |
 | 9 | Geometry-Adaptive Dual-Function Beamforming for Movable-Antenna ISAC | coming soon |
 | 10 | Satellite and Non-Terrestrial-Network Beamforming | coming soon |
 | 11 | GNSS Anti-Jamming with a Controlled Reception Pattern Antenna | coming soon |
