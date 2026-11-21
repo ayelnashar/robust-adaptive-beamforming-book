@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ch7rdfisac"
+version = "1.0.0"
+description = "Chapter 7 simulations: robust dual-function receive beamforming with tracked-interference covariance reconstruction (RDF-AS-ISAC) for 6G ISAC"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Ayman Elnashar"}]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "cvxpy>=1.4",
+    "clarabel>=0.6",
+    "scs>=3.2",
+    "threadpoolctl>=3.1",
+]
+
+[project.optional-dependencies]
+notebook = ["jupyter", "nbformat", "nbconvert"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["ch7rdfisac"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the book chapter and the paper listed below."
+title: "Chapter 7: Dual-Function Beamforming for Integrated Sensing and Communication (Python simulations)"
+version: 1.0.0
+date-released: 2026-11-21
+license: MIT
+authors:
+  - family-names: Elnashar
+    given-names: Ayman
+preferred-citation:
+  type: book
+  title: "Robust Adaptive Beamforming and Its Applications"
+  authors:
+    - family-names: Elnashar
+      given-names: Ayman
+  publisher:
+    name: "Wiley"
+  notes: "Forthcoming. Chapter 7, Dual-Function Beamforming for Integrated Sensing and Communication."
+references:
+  - type: article
+    title: "Robust Dual-Function Receive Beamforming With Tracked-Interference Covariance Reconstruction for 6G ISAC"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+  - type: article
+    title: "Further study on robust adaptive beamforming with optimum diagonal loading"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+      - family-names: Elnoubi
+        given-names: S. M.
+      - family-names: El-Mikati
+        given-names: H. A.
+    journal: "IEEE Transactions on Antennas and Propagation"
+    volume: 54
+    issue: 12
+    start: 3647
+    end: 3658
+    year: 2006
+    doi: 10.1109/TAP.2006.886473
+  - type: article
+    title: "Efficient implementation of robust adaptive beamforming based on worst-case performance optimisation"
+    authors:
+      - family-names: Elnashar
+        given-names: Ayman
+    journal: "IET Signal Processing"
+    volume: 2
+    issue: 4
+    start: 381
+    end: 393
+    year: 2008
+    doi: 10.1049/iet-spr:20070162
